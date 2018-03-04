@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
+        <style>
+            /* width */
+            ::-webkit-scrollbar {
+                width: .8em;
+            }
+            
+            /* Track */
+            ::-webkit-scrollbar-track {
+                background: rgb(233, 233, 233); 
+            }
+            
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+                background: #529FDB; 
+            }
+            
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+                background: #000; 
+            }
+            
+            @import url('https://fonts.googleapis.com/css?family=Karma');
+            body{
+                font-family:Karma, serif;
+            }
+        </style>
+        
         <meta charset="utf-8">
-        <style></style>
+        
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
         
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -15,26 +43,33 @@
         <title>Cloud Computing</title>
     </head>
     <body>
+    
+        <!-- Nav -->
         <nav class="navbar navbar-inverse navbar-fixed-to">
-          <div class="container-fluid bg-primary">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <div class="container-fluid bg-primary">
+                <div class="navbar-header ">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span> 
-                </button>
-                <a class="navbar-brand" href="#">Cloud Computing</a>
-            </div>
-            <ul class="nav navbar-nav navbar-right" id="nav">
-              <li class="navbar-nav"><a class="nav-link" href="index.html">Home</a></li>
-              <li class="navbar-nav"><a class="nav-link" href="">Cloud Computing</a></li>
-              <li class="navbar-nav"><a class="nav-link" href="#">Implications</a></li>
-              <li class="navbar-nav"><a class="nav-link" href="#"></a></li>
-            </ul>
-          </div>
+                  </button>
+                  <a class="navbar-brand" href="#">WebSiteName</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right ">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Cloud Computing</a></li>
+                    <li><a href="#">Implications</a></li> 
+                    <li><a href="#">Future Use</a></li> 
+                  </ul>
+                </div>
+              </div>
         </nav>
+        <!-- Nav End -->
+        
         <div>
-            <p></p>
+            
         </div>
+        
     </body>
 </html>
