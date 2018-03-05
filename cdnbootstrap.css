@@ -3,24 +3,7 @@
 
 /*Scroll Bar Start*/
 /* width */
-            ::-webkit-scrollbar {
-                width: .8em;
-            }
             
-            /* Track */
-            ::-webkit-scrollbar-track {
-                background: rgb(233, 233, 233); 
-            }
-            
-            /* Handle */
-            ::-webkit-scrollbar-thumb {
-                background: #529FDB; 
-            }
-            
-            /* Handle on hover */
-            ::-webkit-scrollbar-thumb:hover {
-                background: #000; 
-            }
 /*Scroll Bar End*/
 
 html{
@@ -3946,14 +3929,13 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 .navbar-inverse{
     background-color:#222;
-    border-color:#529FDB
+    border-color:#fff
 }
 .navbar-inverse .navbar-brand{
     color:rgb(0,0,00)
 }
 .navbar-inverse .navbar-brand:focus,.navbar-inverse .navbar-brand:hover{
-    color:#fff;
-    background-color:transparent
+    background-color:#fff
 }
 .navbar-inverse .navbar-text{
     color:#9d9d9d
@@ -3962,12 +3944,12 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
     color:#000
 }
 .navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover{
-    color:#fff;
-    background-color:transparent
+    background-color:#fff
 }
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover{
-    color:#fff;
-    background-color:#080808
+    color:#000;
+    background-color:#fff
+    border-color:#000;
 }
 .navbar-inverse .navbar-nav>.disabled>a,.navbar-inverse .navbar-nav>.disabled>a:focus,.navbar-inverse .navbar-nav>.disabled>a:hover{
     color:#000;
