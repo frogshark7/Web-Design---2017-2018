@@ -7,7 +7,7 @@
 /*Scroll Bar End*/
 
 html{
-    font-family:sans-serif;
+    font-family:"Karma", sans-serif;
     -webkit-text-size-adjust:100%;
     -ms-text-size-adjust:100%
 }
@@ -85,7 +85,7 @@ pre{
     overflow:auto
 }
 code,kbd,pre,samp{
-    font-family:monospace,monospace;
+    font-family:"Karma", monospace,monospace;
     font-size:1em
 }
 button,input,optgroup,select,textarea{
@@ -214,7 +214,7 @@ td,th{
     }
 }
 @font-face{
-    font-family:'Glyphicons Halflings';
+    font-family:"Karma", 'Glyphicons Halflings';
     src:url(../fonts/glyphicons-halflings-regular.eot);
     src:url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'),url(../fonts/glyphicons-halflings-regular.woff) format('woff'),url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
@@ -222,7 +222,7 @@ td,th{
     position:relative;
     top:1px;
     display:inline-block;
-    font-family:'Glyphicons Halflings';
+    font-family:"Karma", 'Glyphicons Halflings';
     font-style:normal;
     font-weight:400;
     line-height:1;
@@ -1030,14 +1030,14 @@ html{
     -webkit-tap-highlight-color:rgba(0,0,0,0)
 }
 body{
-    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Karma","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:14px;
     line-height:1.42857143;
     color:#333;
     background-color:#fff
 }
 button,input,select,textarea{
-    font-family:inherit;
+    font-family:"Karma",inherit;
     font-size:inherit;
     line-height:inherit
 }
@@ -1111,7 +1111,7 @@ hr{
     cursor:pointer
 }
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
-    font-family:inherit;
+    font-family:"Karma",inherit;
     font-weight:500;
     line-height:1.1;
     color:inherit
@@ -1360,7 +1360,7 @@ address{
     line-height:1.42857143
 }
 code,kbd,pre,samp{
-    font-family:Menlo,Monaco,Consolas,"Courier New",monospace
+    font-family:"Karma", Menlo,Monaco,Consolas,"Courier New",monospace
 }
 code{
     padding:2px 4px;
@@ -4650,8 +4650,8 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 .panel{
     margin-bottom:20px;
     background-color:#fff;
-    border:1px solid transparent;
-    border-radius:4px;
+    border:5px solid transparent;
+    border-radius:0px;
     -webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);
     box-shadow:0 1px 1px rgba(0,0,0,.05)
 }
@@ -4771,29 +4771,29 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
     border:0
 }
 .panel-group{
-    margin-bottom:20px
+    margin-bottom:0px
 }
 .panel-group .panel{
     margin-bottom:0;
-    border-radius:4px
+    border-radius:0px
 }
 .panel-group .panel+.panel{
-    margin-top:5px
+    margin-top:0px
 }
 .panel-group .panel-heading{
     border-bottom:0
 }
 .panel-group .panel-heading+.panel-collapse>.list-group,.panel-group .panel-heading+.panel-collapse>.panel-body{
-    border-top:1px solid #ddd
+    border-top:1px solid #529FDB
 }
 .panel-group .panel-footer{
     border-top:0
 }
 .panel-group .panel-footer+.panel-collapse .panel-body{
-    border-bottom:1px solid #ddd
+    border-bottom:1px solid #529FDB
 }
 .panel-default{
-    border-color:#ddd
+    border-color:#529FDB
 }
 .panel-default>.panel-heading{
     color:#333;
@@ -4802,6 +4802,7 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 }
 .panel-default>.panel-heading+.panel-collapse>.panel-body{
     border-top-color:#ddd
+        
 }
 .panel-default>.panel-heading .badge{
     color:#f5f5f5;
@@ -4809,6 +4810,7 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 }
 .panel-default>.panel-footer+.panel-collapse>.panel-body{
     border-bottom-color:#ddd
+        
 }
 .panel-primary{
     border-color:#337ab7
@@ -4820,6 +4822,7 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 }
 .panel-primary>.panel-heading+.panel-collapse>.panel-body{
     border-top-color:#337ab7
+        
 }
 .panel-primary>.panel-heading .badge{
     color:#337ab7;
@@ -4827,6 +4830,7 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 }
 .panel-primary>.panel-footer+.panel-collapse>.panel-body{
     border-bottom-color:#337ab7
+        
 }
 .panel-success{
     border-color:#d6e9c6
@@ -4838,6 +4842,7 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 }
 .panel-success>.panel-heading+.panel-collapse>.panel-body{
     border-top-color:#d6e9c6
+        
 }
 .panel-success>.panel-heading .badge{
     color:#dff0d8;
@@ -4845,6 +4850,7 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 }
 .panel-success>.panel-footer+.panel-collapse>.panel-body{
     border-bottom-color:#d6e9c6
+        
 }
 .panel-info{
     border-color:#bce8f1
@@ -4856,6 +4862,7 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 }
 .panel-info>.panel-heading+.panel-collapse>.panel-body{
     border-top-color:#bce8f1
+        
 }
 .panel-info>.panel-heading .badge{
     color:#d9edf7;
@@ -4863,6 +4870,7 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 }
 .panel-info>.panel-footer+.panel-collapse>.panel-body{
     border-bottom-color:#bce8f1
+        
 }
 .panel-warning{
     border-color:#faebcc
@@ -4874,13 +4882,16 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 }
 .panel-warning>.panel-heading+.panel-collapse>.panel-body{
     border-top-color:#faebcc
+        
 }
 .panel-warning>.panel-heading .badge{
     color:#fcf8e3;
     background-color:#8a6d3b
 }
-.panel-warning>.panel-footer+.panel-collapse>.panel-body{
+.panel-warning>.panel-footer+.panel-collapse>.
+{
     border-bottom-color:#faebcc
+        
 }
 .panel-danger{
     border-color:#ebccd1
@@ -4892,6 +4903,7 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 }
 .panel-danger>.panel-heading+.panel-collapse>.panel-body{
     border-top-color:#ebccd1
+        
 }
 .panel-danger>.panel-heading .badge{
     color:#f2dede;
@@ -4899,6 +4911,7 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 }
 .panel-danger>.panel-footer+.panel-collapse>.panel-body{
     border-bottom-color:#ebccd1
+        
 }
 .embed-responsive{
     position:relative;
@@ -5095,7 +5108,7 @@ button.close{
     position:absolute;
     z-index:1070;
     display:block;
-    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Karma", "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:12px;
     font-style:normal;
     font-weight:400;
@@ -5213,7 +5226,7 @@ button.close{
     display:none;
     max-width:276px;
     padding:1px;
-    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Karma", "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:14px;
     font-style:normal;
     font-weight:400;
@@ -5463,7 +5476,7 @@ button.close{
 .carousel-control .icon-next,.carousel-control .icon-prev{
     width:20px;
     height:20px;
-    font-family:serif;
+    font-family:"Karma",serif;
     line-height:1
 }
 .carousel-control .icon-prev:before{
@@ -5541,9 +5554,11 @@ button.close{
 .btn-group-vertical>.btn-group:after,.btn-group-vertical>.btn-group:before,.btn-toolbar:after,.btn-toolbar:before,.clearfix:after,.clearfix:before,.container-fluid:after,.container-fluid:before,.container:after,.container:before,.dl-horizontal dd:after,.dl-horizontal dd:before,.form-horizontal .form-group:after,.form-horizontal .form-group:before,.modal-footer:after,.modal-footer:before,.modal-header:after,.modal-header:before,.nav:after,.nav:before,.navbar-collapse:after,.navbar-collapse:before,.navbar-header:after,.navbar-header:before,.navbar:after,.navbar:before,.pager:after,.pager:before,.panel-body:after,.panel-body:before,.row:after,.row:before{
     display:table;
     content:" "
+        
 }
 .btn-group-vertical>.btn-group:after,.btn-toolbar:after,.clearfix:after,.container-fluid:after,.container:after,.dl-horizontal dd:after,.form-horizontal .form-group:after,.modal-footer:after,.modal-header:after,.nav:after,.navbar-collapse:after,.navbar-header:after,.navbar:after,.pager:after,.panel-body:after,.row:after{
     clear:both
+        
 }
 .center-block{
     display:block;
