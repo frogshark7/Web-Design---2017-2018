@@ -17,6 +17,9 @@
     background: #000; 
 }
 
+body, html {
+    height: 100%;
+}
 
 /*--Home Image-*/
 nav-home{
@@ -30,25 +33,7 @@ nav-home{
 }
 
 /*2nd Module Container Div - Parallax*/
-.parallax { 
-    margin-top: 44%;
-    /* The image used */
-    background-color:#529FDB;
 
-    /* Full height */
-    height: 100%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*Additional*/
-    text-align:center;   
-    width:100%; 
-    box-shadow: 10px 10px;
-    border:1px solid #529FDB    
-}
 
 /*Parallax for Phones*/
 @media only screen and (max-device-width: 1366px) {
@@ -58,14 +43,37 @@ nav-home{
 }
 
 /*Title of 2nd Module*/
-.panel-div{
+.module{
+    text-align:center;   
+    width:100%; 
+    background-color:#fff;
+    border-top:10px solid #529FDB;
+    border-bottom:10px solid #529FDB;
+}
+
+.panel-title{
     font-size:4em;
+    background-color:#fff;
     color:#000;
     font-weight:bold;
 }
 
 panel-body-style{
-    width:70%;
-    
+    width:50%;
+}
+
+/**/
+.parallax { 
+    /* The image used */
+    background-image: url("https://www.advantageservices.net/photos/articles/correct/205.jpg");
+
+    /* Set a specific height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
