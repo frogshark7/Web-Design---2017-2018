@@ -30,6 +30,9 @@ nav-home{
     margin:0px;
     text-align:center;
     border:1px solid #529FDB
-    
 }
 
+.nav-home-cloud{
+    margin:0px;
+    padding-top:0px;
+}
