@@ -1,0 +1,22 @@
+::-webkit-scrollbar {
+    width: .8em;
+}
+            
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(233, 233, 233); 
+}
+            
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #529FDB; 
+}
+        
+ /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #000; 
+}
+
+nav-home{
+    top:30px;
+}
