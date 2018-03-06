@@ -3089,7 +3089,6 @@ tbody.collapse.in{
     content:"";
     border-top:0;
     border-bottom:4px dashed;
-    border-bottom:4px solid\9
 }
 .dropup .dropdown-menu,.navbar-fixed-bottom .dropdown .dropdown-menu{
     top:auto;
@@ -3546,7 +3545,6 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
     position:relative;
     min-height:50px;
     margin-bottom:20px;
-    border:1px solid transparent
 }
 @media (min-width:768px){
     .navbar{
@@ -3589,6 +3587,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
     .navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse,.navbar-static-top .navbar-collapse{
         padding-right:0;
         padding-left:0
+        
     }
 }
 .navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse{

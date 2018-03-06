@@ -17,22 +17,55 @@
     background: #000; 
 }
 
+
+/*--Home Image-*/
 nav-home{
     top:30px;
 }
 
-.panel-home{
-    position:fixed; 
-    width:100%; 
-    height:70px; 
-    padding:5px; 
-    bottom:0px; 
-    margin:0px;
-    text-align:center;
-    border:1px solid #529FDB
-}
-
+/*--Home Image Positioning-*/
 .nav-home-cloud{
     margin:0px;
     padding-top:0px;
 }
+
+/*2nd Module Container Div - Parallax*/
+.parallax { 
+    margin-top: 44%;
+    /* The image used */
+    background-color:#529FDB;
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*Additional*/
+    text-align:center;   
+    width:100%; 
+    box-shadow: 10px 10px;
+    border:1px solid #529FDB    
+}
+
+/*Parallax for Phones*/
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/*Title of 2nd Module*/
+.panel-div{
+    font-size:4em;
+    color:#000;
+    font-weight:bold;
+}
+
+panel-body-style{
+    width:70%;
+    
+}
+
