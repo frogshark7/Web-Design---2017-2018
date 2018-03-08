@@ -15,6 +15,10 @@ table {
 fieldset,img { 
 	border:0;
 }
+.parallax-window{
+    height:100%;
+    background:transparent;
+}
 input{
 	border:1px solid #b0b0b0;
 	padding:3px 5px 4px;
