@@ -43,6 +43,7 @@ nav-home{
 }
 
 /*Title of 2nd Module*/
+    /*Makes Background Opaque START*/
 .module{
     text-align:center;   
     width:100%; 
@@ -51,6 +52,11 @@ nav-home{
     border-bottom:10px solid #529FDB;
     opacity: 1;
 }
+
+.body-text{
+    opacity: .99;
+}
+   /*Makes Background Opaque END*/
 
 .panel-title{
     font-size:4em;
