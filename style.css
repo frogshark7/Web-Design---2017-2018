@@ -32,9 +32,6 @@ nav-home{
     padding-top:0px;
 }
 
-/*2nd Module Container Div - Parallax*/
-
-
 /*Parallax for Phones*/
 @media only screen and (max-device-width: 1366px) {
     .parallax {
@@ -42,7 +39,7 @@ nav-home{
     }
 }
 
-/*Title of 2nd Module*/
+/*2nd Module START*/
     /*Makes Background Opaque START*/
 .module{
     text-align:center;   
@@ -68,13 +65,11 @@ nav-home{
 panel-body-style{
     width:50%;
 }
+/*2nd Module END*/
 
-/**********************************************************************/
-.parallax-window{
-    height:100%;
-    background:transparent;
+/*Footer START*/
+.footer-style{
+    background-color:#529FDB;
+    color:#fff;
 }
-
-.body-text{
-    opacity: .99;
-}
+/*Footer END*/
