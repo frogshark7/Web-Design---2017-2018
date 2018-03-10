@@ -28,13 +28,19 @@ nav-home{
     padding-top:0px;
 }
 
+a {
+    color:#fff;
+}
+
 .footer-style{
     background-color:#529FDB;
     color:#fff;
     text-align:center;
     margin:0px;
+    width: 100%;
 }
 
 a.active {
     background:white;
 }
+
