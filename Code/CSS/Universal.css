@@ -29,12 +29,14 @@ nav-home{
 }
 
 .footer-style{
-    background-color:#529FDB;
-    color:#fff;
+    font-size: 1.2em;
+    background-color:#fff;
+    color:#529FDB;
     text-align:center;
     margin:0px;
     width: 100%;
-    border: 1px solid #529FDB;
+    border: 1px solid #fff;
+    font-weight: bold;
 }
 
 a {
