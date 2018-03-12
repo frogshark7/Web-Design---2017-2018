@@ -72,3 +72,10 @@ html, body{
 .text-body_right{
     padding-right: 4vh;
 }
+.texton{
+    margin-top: 5vh;
+    text-align: center;
+    color: #529FDB;
+    position: 50%;
+    font-size: 15vh;
+}

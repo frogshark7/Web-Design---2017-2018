@@ -87,6 +87,7 @@ body, html {
 #slider figure img{
   width: 20%;
   float: left;
+  opacity: .99;
 }
 
 #slider figure{
@@ -95,4 +96,7 @@ body, html {
   margin: 0;
   right: 0;
   animation: 20s slider infinite;
+    z-index: 0;
+    opacity: .99;
 }
+#slider
