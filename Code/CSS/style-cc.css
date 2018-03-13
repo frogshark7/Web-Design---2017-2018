@@ -28,15 +28,10 @@ html, body{
 .img-text{
     float:right;
     text-align: justify;
-    margin-top: 50vh; 
-    margin-right: 3%;
-    max-width: 40%;
-    max-height: 75%;
-    position: relative;
-    display: block;
-    transform: translateY(-50%);
+    margin-top: 10vh; 
     font-size: 4vh;
     color:#fff;
+    padding-left: 5vh;
 }
 
 .type-title{
@@ -71,4 +66,11 @@ html, body{
 
 .text-body_right{
     padding-right: 4vh;
+}
+.texton{
+    margin-top: 5vh;
+    text-align: center;
+    color: #fff;
+    position: 50%;
+    font-size: 5vh;
 }
