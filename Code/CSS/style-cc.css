@@ -24,6 +24,9 @@ html, body{
 }
 
 /*TEXT*/
+.test-mod{
+    margin-bottom:1vh;
+}
 
 .img-text{
     float:right;
@@ -68,6 +71,8 @@ html, body{
     padding-right: 4vh;
 }
 .texton{
+    display: block;
+    position: relative;
     margin-top: 5vh;
     text-align: center;
     color: #fff;
