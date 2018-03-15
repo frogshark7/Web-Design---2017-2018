@@ -43,8 +43,13 @@ html{
      color:#fff;
 }
  a.active {
-     background:white;
+     background:#fff;  
 }
+
+.dropdown{
+    background-color:#fff;
+}
+
  a:hover {
      color: #000;
      text-decoration: underline;

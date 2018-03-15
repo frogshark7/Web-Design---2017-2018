@@ -1,17 +1,37 @@
-.news-live{
-    margin-top:50px;
-    border-bottom: 1px solid #529FDB;
-    font-size:40px
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
-marquee > img{ 
-    padding-bottom: 0px;
-    height:1.5em;
-    padding:0; 
-    margin:0;
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 107px;
+    z-index: 1;
+    color:#000;
 }
 
-marquee{
-    position:relative;
-    overflow:hidden;
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content li:hover {
+    background-color: #ddd
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #fff;
 }
