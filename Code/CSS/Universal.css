@@ -45,9 +45,6 @@ html{
  a.active {
      background:#fff;  
 }
-
-
-
  a:hover {
      color: #000;
      text-decoration: underline;
@@ -96,3 +93,10 @@ html{
 .white-border{
     border: 1px solid #fff;
 }
+
+@media (max-width: 767px){
+    .add-mod{
+        width:50%;
+    }
+}
+
