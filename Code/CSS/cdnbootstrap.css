@@ -2993,7 +2993,7 @@ tbody.collapse.in{
     background-color:#fff;
     -webkit-background-clip:padding-box;
     background-clip:padding-box;
-    border:1px solid #ccc;
+    border:1px solid #fff;
     border:1px solid rgba(0,0,0,.15);
 }
 .dropdown-menu.pull-right{
@@ -3410,7 +3410,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
     color:#555;
     cursor:default;
     background-color:#fff;
-    border:1px solid #ddd;
+    border:1px solid #fff;
     border-bottom-color:transparent
 }
 .nav-tabs.nav-justified{

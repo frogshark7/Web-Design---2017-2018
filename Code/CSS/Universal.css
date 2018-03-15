@@ -46,9 +46,7 @@ html{
      background:#fff;  
 }
 
-.dropdown{
-    background-color:#fff;
-}
+
 
  a:hover {
      color: #000;
@@ -57,4 +55,44 @@ html{
  a:visited {
      color: #000;
      text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 107px;
+    z-index: 1;
+    color:#000;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content li:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover {
+    background-color: #fff;
+}
+
+.white-border{
+    border: 1px solid #fff;
 }
