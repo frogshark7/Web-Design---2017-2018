@@ -1,0 +1,50 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+    
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  pointer-events: none
+}
+
+/*Title*/
+.title{
+    margin-top: 16vh;
+    text-align:center;
+    font-weight: bold;
+    font-size:5vh
+}
+
+/*BODY TEXT*/
+.right-text{
+    float:right;
+    text-align: justify;
+    margin-top: 0vh; 
+    font-size: 4vh;
+    color:#fff;
+    margin-right: 5vh;
+}
+
+.left-text{
+    float:left;
+    text-align: justify;
+    margin-top: 0vh; 
+    font-size: 4vh;
+    color:#000;
+    margin-left: 5vh;
+}
+
+.Sub-text{
+    margin-top:43vh;
+    text-align:justify;
+    position: relative;
+    font-size: 2.75vh;
+}
