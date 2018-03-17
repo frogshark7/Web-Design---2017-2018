@@ -1,0 +1,10 @@
+.blockuno{
+    margin-top: 50px;
+    font-size: 10vh;
+    text-align: center;
+    padding-top: 0;
+    overflow: hidden;
+    height: 100%;
+    border-bottom: 0px solid transparent;
+    height:100vh;
+}
