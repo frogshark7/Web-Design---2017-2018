@@ -10,23 +10,29 @@ html, body{
   z-index: -1;
   position: absolute;
   top: 0;
-  left: 50%;
   transform: translate(-50%,0);
   pointer-events: none
 }
 
 /*TEXT*/
-.test-mod{
-    margin-bottom:1vh;
+.title{
+    color:#fff;
+    margin-top: 16vh;
+    text-align:center;
+    font-weight: bold;
+    font-size:5vh;
 }
 
-.img-text{
+.right-text{
     float:right;
     text-align: justify;
-    margin-top: 10vh; 
+    margin-top: 7vh; 
     font-size: 4vh;
     color:#fff;
-    padding-left: 5vh;
+    margin-right: 0vh;
+    position: relative;
+    display: block;
+    transform: translateY(-50%);
 }
 
 .type-title{
@@ -46,14 +52,7 @@ html, body{
     margin-top:2.8vh
 }
 
-.title-def{
-    text-align:center;
-    font-weight: bold;
-    font-size:5vh
-}
-
 .Sub-text{
-    margin-top:vh;
     text-align:justify;
     position: relative;
     font-size: 2.75vh;
