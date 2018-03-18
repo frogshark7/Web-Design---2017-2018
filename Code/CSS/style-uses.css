@@ -24,28 +24,21 @@ body, html {
 }
 
 /*BODY TEXT*/
-.right-text{
-    float:right;
+.body-text{
     text-align: justify;
-    margin-top: 35vh; 
+    margin-top: 37vh; 
     font-size: 2.6vh;
-    color:#fff;
-    margin-right: 5vh;
     position: relative;
     display: block;
     transform: translateY(-50%);
 }
 
-.left-text{
-    float:left;
-    text-align: justify;
-    margin-top: 35vh; 
-    font-size: 2.6vh;
+.white{
+    color:#fff;
+}
+
+.black{
     color:#000;
-    margin-left: 5vh;
-    position: relative;
-    display: block;
-    transform: translateY(-50%);
 }
 
 .Sub-text{
@@ -55,12 +48,26 @@ body, html {
     font-size: 2.75vh;
 }
 
+.text-bottom{
+    text-align: justify;
+    overflow:auto;
+    font-size:2.6vh;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 @media only screen and (min-height : 770px){
     .title{
         margin-top: 5vh;
+        padding-bottom: 2vh;
     }
     .right-text, .left-text{
         margin-top: 40vh;
     }
+}
+
+/*@media only screen and (max-width: 1178px){
+    overflow-y: auto;
+            overflow-x: hidden;
 }
 /*************************************************************************************************************************************/
