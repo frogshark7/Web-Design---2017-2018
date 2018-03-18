@@ -31,12 +31,12 @@ html{
 }
  .footer-style{
      font-size: 1.2em;
-     background-color:#fff;
-     color:#529FDB;
+     background-color:#434343;
+     color:#fff;
      text-align:center;
      margin:0px;
      width: 100%;
-     border: 1px solid #fff;
+     border: 1px solid #434343;
      font-weight: bold;
 }
  a {
