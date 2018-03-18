@@ -15,25 +15,24 @@ body, html {
 
 /*Title*/
 .title{
-    margin-top: -90vh;
+    margin-top: 20vh;
     text-align:center;
     font-weight: bold;
-    padding-bottom: 1vh;
-    position: relative;
+    left:50%;
     font-size:5vh
 }
 
 /*BODY TEXT*/
 .body-text{
     text-align: justify;
-    margin-top: 25vh; 
+    margin-top: 0vh; 
     margin-left: auto;
     margin-right: auto;
     width:80%;
     font-size: 2.6vh;
-    position: relative;
     display: block;
-    transform: translateY(-50%);
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .white{
@@ -44,22 +43,7 @@ body, html {
     color:#000;
 }
 
-.Sub-text{
-    margin-top:43vh;
-    text-align:justify;
-    position: relative;
-    font-size: 2.75vh;
-}
-
-.text-bottom{
-    text-align: justify;
-    overflow:auto;
-    font-size:2.6vh;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-/*************************************************************************************************************************************/
-
+/*Arrow*/
 @-webkit-keyframes bounce {
     0% {
       top: 0;
@@ -149,7 +133,7 @@ body, html {
 #container { position:relative; }
 .arrow { 
       position: absolute;
-      margin-top:-12vh;
+      margin-top:5vh;
       left: 50%;
       width: 24px;
       height: 24px;
@@ -167,6 +151,7 @@ body, html {
     animation: bounce 1s;
 }
 
+/*Timeline*/
 .timeline{
     display:block;
     margin-left:auto;
@@ -174,4 +159,9 @@ body, html {
     height:100%;
     margin-top:7vh;
     width:90%;
+}
+
+/*1st Module Filler*/
+.header-image{
+    background-color:#434343;
 }
