@@ -41,6 +41,7 @@ html{
 }
  a {
      color:#fff;
+    text-decoration: none;
 }
  a.active {
      background:#fff;  
