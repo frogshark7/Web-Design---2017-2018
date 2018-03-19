@@ -15,24 +15,23 @@ body, html {
 
 /*Title*/
 .title{
-    margin-top: 20vh;
-    text-align:center;
+    margin-top: -85vh;
+    margin-left:105vh;
     font-weight: bold;
-    left:50%;
-    font-size:5vh
+    font-size:9vh;
+    position:absolute;
 }
 
 /*BODY TEXT*/
 .body-text{
     text-align: justify;
-    margin-top: 0vh; 
-    margin-left: auto;
-    margin-right: auto;
-    width:80%;
-    font-size: 2.6vh;
+    margin-top: -70vh; 
+    margin-left: 65vh;
+    width:40%;
+    font-size: 3vh;
     display: block;
-    overflow-y: auto;
-    overflow-x: hidden;
+    position:absolute;
+
 }
 
 .white{
@@ -133,7 +132,7 @@ body, html {
 #container { position:relative; }
 .arrow { 
       position: absolute;
-      margin-top:5vh;
+      margin-top:10vh;
       left: 50%;
       width: 24px;
       height: 24px;
@@ -158,10 +157,18 @@ body, html {
     margin-right:auto;
     height:100%;
     margin-top:7vh;
-    width:90%;
+    width:1200px;
 }
 
 /*1st Module Filler*/
 .header-image{
-    background-color:#434343;
+    background-color:#529FDB;
+}
+
+.top-image{
+    height:100%;
+    width:100%;
+    background-color:#529FDB;
+    margin-top:2vh
+
 }

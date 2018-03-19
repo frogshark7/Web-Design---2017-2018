@@ -20,19 +20,7 @@ html, body{
     margin-top: -85vh;
     text-align:center;
     font-weight: bold;
-    font-size:5vh;
-}
-
-.right-text{
-    float:right;
-    text-align: justify;
-    margin-top: 7vh; 
-    font-size: 4vh;
-    color:#fff;
-    margin-right: 0vh;
-    position: relative;
-    display: block;
-    transform: translateY(-50%);
+    font-size:7vh;
 }
 
 .type-title{
@@ -45,6 +33,26 @@ html, body{
     font-size: 5vh;
     color: #000;
     font-weight: bold;
+}
+
+.title-last{
+    color:#fff;
+    margin-top: 8vh;
+    text-align:center;
+    font-weight: bold;
+    font-size:7vh;    
+}
+
+.right-text{
+    float:right;
+    text-align: justify;
+    margin-top: 7vh; 
+    font-size: 4vh;
+    color:#fff;
+    margin-right: 0vh;
+    position: relative;
+    display: block;
+    transform: translateY(-50%);
 }
 
 .image-stuck{
@@ -72,14 +80,4 @@ html, body{
 
 .text-body_right{
     padding-right: 4vh;
-}
-.texton{
-    display: block;
-    position: relative;
-    margin-top: 7vh;
-    text-align: center;
-    color: #fff;
-    position: 50%;
-    font-size: 5vh;
-    font-weight: bold;
 }
