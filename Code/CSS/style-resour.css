@@ -12,6 +12,10 @@ body{
     text-align:center;
 }
 
+.white{
+    color:#fff;
+}
+
 .res-bar{
     background-color:#529FDB;
     margin-top:2vh;

@@ -39,10 +39,7 @@ html{
      border: 1px solid #434343;
      font-weight: bold;
 }
- a {
-     color:#fff;
-    text-decoration: none;
-}
+
  a.active {
      background:#fff;  
 }
