@@ -71,7 +71,7 @@ html, body{
     position: relative;
     font-weight:bold;
     font-size: 4vh;
-    margin-top: 43vh;
+    margin-top: 15vh;
     text-align: center;
 }
 
@@ -126,12 +126,23 @@ html, body{
 
 /********************************************/
 
-.panel {
-  border: 0;
-  margin-bottom: 0;
+
+
+/*Collapse Info*/
+.title-coll{
+    color:#000;
+    background-color:transparent;
+    position: relative;
+    font-weight:bold;
+    font-size: 4vh;
+    margin-top: 43vh;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    left:8%;
 }
 
-.text {
-  margin-bottom: 20px;
-  padding: 15px;
+.text-coll{
+    font-size:2vh;
+    text-align:center;
 }
