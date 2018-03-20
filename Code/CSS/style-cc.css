@@ -110,6 +110,7 @@ html, body{
   position: relative;
   overflow: hidden;
   text-align: justify;
+    background-image: url(../Pics/Types-cc.svg)
 }
 
 .space{
@@ -135,14 +136,18 @@ html, body{
     position: relative;
     font-weight:bold;
     font-size: 4vh;
-    margin-top: 43vh;
+    margin-top: 40vh;
     display:block;
     margin-left: auto;
     margin-right: auto;
     left:8%;
 }
 
-.text-coll{
-    font-size:2vh;
-    text-align:center;
+.text-collapse{
+    font-size: 2vh;
+    float:left;
+    text-align: justify;
+    margin-right: 5vh;
+    margin-left: 5vh;
 }
+
