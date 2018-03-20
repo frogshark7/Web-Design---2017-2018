@@ -61,7 +61,7 @@ html, body{
 }
 
 .Sub-text{
-    margin-top:45vh;
+    margin-top:vh;
     text-align:justify;
     position: relative;
     font-size: 2.75vh;
@@ -71,7 +71,7 @@ html, body{
     position: relative;
     font-weight:bold;
     font-size: 4vh;
-    margin-top: 0vh;
+    margin-top: 43vh;
     text-align: center;
 }
 
@@ -82,12 +82,6 @@ html, body{
 .text-body_right{
     padding-right: 4vh;
 }
-
-/*Images*/
-.top-img{
-    margin-top:6vh;
-}
-
 
 .text-body{
     font-size: 4vh;
@@ -116,12 +110,28 @@ html, body{
   position: relative;
   overflow: hidden;
   text-align: justify;
-  background-color:#434343;
-
 }
 
 .space{
     margin-right: 7vh;
     background-color: #434343;
     color:#434343;
+}
+
+.top-img{
+    margin-top: 20vh;
+    display:inlineblock;
+    position:absolute;
+}
+
+/********************************************/
+
+.panel {
+  border: 0;
+  margin-bottom: 0;
+}
+
+.text {
+  margin-bottom: 20px;
+  padding: 15px;
 }
