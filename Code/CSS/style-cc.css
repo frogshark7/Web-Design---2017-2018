@@ -73,6 +73,7 @@ html, body{
     font-size: 4vh;
     margin-top: 10vh;
     text-align: center;
+    background-color: #fff;
 }
 
 .text-body_left{
@@ -144,13 +145,20 @@ html, body{
     margin-left: auto;
     margin-right: auto;
     left:8%;
+    text-align: center;
 }
 
 .text-collapse{
-    font-size: 2vh;
+    font-size: 2.6vh;
     float:left;
     text-align: justify;
+    background-color:#fff;
     margin-right: 5vh;
     margin-left: 5vh;
-    background-color:#fff;
+    color:#000;
+}
+
+.white{
+    background-color: #fff;
+    width:100%;
 }
