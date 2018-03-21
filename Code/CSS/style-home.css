@@ -5,6 +5,26 @@ body, html {
       width: 100%;
 }
 
+a.white{
+    color:#529FDB;
+}
+
+a.blue{
+    color:#000;
+}
+
+a.link{
+    text-decoration: underline;
+}
+
+a.white:hover{
+    color:#434343;
+}
+
+a.blue:hover{
+    color:#fff;
+}
+
 .img-parallax {
   width: 100%;
   z-index: -1;
@@ -17,8 +37,8 @@ body, html {
 .img-text{
     float:right;
     text-align: justify;
-    margin: 50vh 1% 25% 0;
-    max-width: 50%;
+    margin: 50vh 5% 25% 0;
+    max-width: 40%;
     max-height: 75%;
     position: relative;
     display: block;
@@ -31,7 +51,7 @@ body, html {
     float:right;
     text-align:justify;
     margin: 50vh 5% 25% 0;
-    max-width: 50%;
+    max-width: 40%;
     max-height: 75%;
     position: relative;
     display: block;

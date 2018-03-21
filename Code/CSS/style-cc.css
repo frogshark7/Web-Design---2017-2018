@@ -77,11 +77,11 @@ html, body{
 }
 
 .text-body_left{
-    padding-left: 4vh;
+    margin-left: 10%;
 }
 
 .text-body_right{
-    padding-right: 4vh;
+    margin-left: -5%;
 }
 
 .text-body{
@@ -180,14 +180,14 @@ html, body{
     text-align:center;
     font-size:6vh;
     font-weight:bold;
-    margin-top:5%
+    margin-top:6%
 }
 
 .cloud-cen{
     color:#fff;
     background-color: #529FDB;
     padding: 2vh;
-    font-size:2.4vh;
+    font-size:16px;
     margin-top:8%;
 }
 
@@ -195,18 +195,28 @@ html, body{
     color:#fff;
     background-color: #529FDB;
     padding: 2vh;
-    font-size:2.4vh;
+    font-size:16px;
     margin-top:2%;
 }
 
-.img-deploy{
+.img-public{
     margin-top:15vh;
-    margin-left:10vh;
-    height:8em;
+    margin-left:2vh;
+    height:25vh;
+    display: block;
+}
+
+.img-private{
+    margin-top:15vh;
+    height:25vh;
+    display: block;
+    margin-left:15vh
 }
 
 .img-hybrid{
     margin-top:12vh;
-    height:4.5em;
-    margin-left:-2vh;
+    height:7em;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
 }
