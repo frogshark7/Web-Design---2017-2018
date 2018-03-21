@@ -166,7 +166,7 @@ html, body{
 
 .t-mod{
     background-color: #434343;
-    background-image: url(../Pics/cc-deploy.svg);
+    background-image: url(../Pics/cc-deploy2.svg);
     background-repeat:no-repeat;   background-size:cover;
     background-position:50% 80%;
 }
@@ -176,9 +176,37 @@ html, body{
 }
 
 .title-deploy{
-    color:#000;
+    color:#529FDB;
     text-align:center;
     font-size:6vh;
     font-weight:bold;
     margin-top:5%
+}
+
+.cloud-cen{
+    color:#fff;
+    background-color: #529FDB;
+    padding: 2vh;
+    font-size:2.4vh;
+    margin-top:8%;
+}
+
+.cloud-side{
+    color:#fff;
+    background-color: #529FDB;
+    padding: 2vh;
+    font-size:2.4vh;
+    margin-top:2%;
+}
+
+.img-deploy{
+    margin-top:15vh;
+    margin-left:10vh;
+    height:8em;
+}
+
+.img-hybrid{
+    margin-top:12vh;
+    height:4.5em;
+    margin-left:-2vh;
 }
