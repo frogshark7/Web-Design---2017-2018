@@ -10,7 +10,7 @@ a.white{
 }
 
 a.blue{
-    color:#000;
+    color:#fff;
 }
 
 a.link{
@@ -18,11 +18,11 @@ a.link{
 }
 
 a.white:hover{
-    color:#434343;
+    color:#000;
 }
 
 a.blue:hover{
-    color:#fff;
+    color:#000;
 }
 
 .img-parallax {
@@ -57,7 +57,7 @@ a.blue:hover{
     display: block;
     transform: translateY(-50%);
     font-size: 4vh;
-    color: #fff;
+    color: #000;
 }
 /* TEXT END*/
 
@@ -103,6 +103,7 @@ a.blue:hover{
 #slider figure img{
   width: 20%;
   float: left;
+  height: 100%;
 }
 
 #slider figure{
@@ -111,4 +112,8 @@ a.blue:hover{
   margin: 0;
   right: 0;
   animation: 16s slider infinite;
+}
+
+.blue-back{
+    background-color: #529FDB;
 }

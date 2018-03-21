@@ -1,0 +1,68 @@
+body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+}
+
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  pointer-events: none
+}
+
+/*Title*/
+.title{
+    margin-top: 15vh;
+    text-align:center;
+    font-weight: bold;
+    font-size:6vh
+}
+
+.title-center{
+    color:#434343;
+    margin-top: 8vh;
+    text-align:center;
+    font-weight: bold;
+    font-size:6vh;
+}
+
+/*BODY TEXT*/
+.body-text{
+    text-align: justify;
+    margin-top: 1vh; 
+    font-size: 2.6vh;
+}
+
+.white{
+    color:#fff;
+}
+
+.black{
+    color:#000;
+}
+
+.grey{
+    color:#434343;
+}
+
+.blue{
+    color:#529FDB;
+}
+
+.Sub-text{
+    margin-top:43vh;
+    text-align:justify;
+    position: relative;
+    font-size: 2.75vh;
+}
+
+.text-bottom{
+    text-align: justify;
+    overflow:auto;
+    font-size:2.6vh;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
