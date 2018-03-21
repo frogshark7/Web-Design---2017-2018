@@ -156,9 +156,29 @@ html, body{
     margin-right: 5vh;
     margin-left: 5vh;
     color:#000;
+    font-weight: 100;
 }
 
 .white{
     background-color: #fff;
     width:100%;
+}
+
+.t-mod{
+    background-color: #434343;
+    background-image: url(../Pics/cc-deploy.svg);
+    background-repeat:no-repeat;   background-size:cover;
+    background-position:50% 80%;
+}
+
+.cc-deploy{
+   margin-top:-40vh; 
+}
+
+.title-deploy{
+    color:#000;
+    text-align:center;
+    font-size:6vh;
+    font-weight:bold;
+    margin-top:5%
 }
