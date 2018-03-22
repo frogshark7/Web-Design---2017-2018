@@ -111,7 +111,7 @@ html, body{
   position: relative;
   overflow: hidden;
   text-align: justify;
-  background-image: url(../Pics/Types-cc.svg);
+  background-image: url(../Pics/cc/Types-cc.svg);
   background-repeat:no-repeat;   background-size:cover;
   background-position: 50%;  
   background-attachment: fixed;
@@ -166,13 +166,9 @@ html, body{
 
 .t-mod{
     background-color: #434343;
-    background-image: url(../Pics/cc-deploy2.svg);
+    background-image: url(../Pics/cc/cc-deploy.svg);
     background-repeat:no-repeat;   background-size:cover;
     background-position:50% 80%;
-}
-
-.cc-deploy{
-   margin-top:-40vh; 
 }
 
 .title-deploy{

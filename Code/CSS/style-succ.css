@@ -5,6 +5,24 @@ body, html {
       width: 100%;
 }
 
+/*Color*/
+.white{
+    color:#fff;
+}
+
+.black{
+    color:#000;
+}
+
+.grey{
+    color:#434343;
+}
+
+.blue{
+    color:#529FDB;
+}
+
+/*Parallax*/
 .img-parallax {
   width: 100vmax;
   z-index: -1;
@@ -30,39 +48,16 @@ body, html {
 }
 
 /*BODY TEXT*/
-.body-text{
+.sup-text{
     text-align: justify;
-    margin-top: 1vh; 
+    margin-top: 0vh; 
     font-size: 2.6vh;
 }
 
-.white{
-    color:#fff;
+.right{
+    padding-right: 5vh;
 }
 
-.black{
-    color:#000;
-}
-
-.grey{
-    color:#434343;
-}
-
-.blue{
-    color:#529FDB;
-}
-
-.Sub-text{
-    margin-top:43vh;
-    text-align:justify;
-    position: relative;
-    font-size: 2.75vh;
-}
-
-.text-bottom{
-    text-align: justify;
-    overflow:auto;
-    font-size:2.6vh;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+.left{
+    padding-left: 5vh;
 }
