@@ -20,6 +20,11 @@ html{
     -ms-text-size-adjust:100%
 }
 
+hr{
+    width:90%;
+    
+}
+
 /*--Home Image-*/
  nav-home{
      top:30px;
