@@ -50,6 +50,7 @@ body, html {
 /*BODY TEXT*/
 .top-text{
     font-size:2.6vh;
+    text-align:justify;
 }
 
 .sup-text{
@@ -73,7 +74,7 @@ body, html {
     margin-right: auto;
     margin-left: auto;
 }
-/*****************************************/
+
 /*Text-anim*/
 *,
 *:before,
