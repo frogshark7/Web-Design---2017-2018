@@ -1,0 +1,64 @@
+body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+}
+
+/*Color*/
+.white{
+    color:#fff;
+}
+
+.black{
+    color:#000;
+}
+
+.grey{
+    color:#434343;
+}
+
+.blue{
+    color:#529FDB;
+}
+
+/*Parallax*/
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  pointer-events: none
+}
+
+/*Title*/
+.title{
+    margin-top: 15vh;
+    text-align:center;
+    font-weight: bold;
+    font-size:6vh
+}
+
+.title-center{
+    color:#434343;
+    margin-top: 8vh;
+    text-align:center;
+    font-weight: bold;
+    font-size:6vh;
+}
+
+/*BODY TEXT*/
+.top-text{
+    font-size:2.6vh;
+    text-align:justify;
+}
+
+.right{
+    padding-right: 5vh;
+}
+
+.left{
+    padding-left: 5vh;
+}
+
+/*Images*/
