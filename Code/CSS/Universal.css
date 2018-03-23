@@ -86,10 +86,6 @@ hr{
     background-color: #fff;
 }
 
-.white-border{
-    border: 1px solid #fff;
-}
-
 @media (max-width: 767px){
     .add-mod{
         width:50%;
