@@ -110,3 +110,12 @@ hr{
     position: relative;
     overflow: hidden;
 }
+
+/*MOD Pics*/
+.blue-mod{
+    background-color:#529FDB;
+}
+
+.grey-mod{
+    background-color:#434343;
+}

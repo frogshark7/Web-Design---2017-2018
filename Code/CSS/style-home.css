@@ -117,3 +117,18 @@ a.blue:hover{
 .blue-back{
     background-color: #529FDB;
 }
+
+.index-mod{
+  background-image: url(../Pics/index/internet.svg);
+  background-repeat:no-repeat;   background-size:cover;
+  background-position: 50% 40%;  
+  background-attachment: fixed;
+  background-color: #529FDB;
+}
+
+.index-mod-bot{
+  background-image: url(../Pics/index/Cloud.svg);
+  background-repeat:no-repeat;   background-size:cover;
+  background-position: 50% 37%;  
+  background-attachment: fixed;
+}

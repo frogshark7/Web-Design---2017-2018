@@ -35,7 +35,16 @@ body, html {
     margin-top: 15vh;
     text-align:center;
     font-weight: bold;
-    font-size:6vh
+    font-size:6vh;
+    color:#529FDB;
+}
+
+.mid-title{
+    margin-top: 15vh;
+    text-align:center;
+    font-weight: bold;
+    font-size:6vh;
+    color:#000;
 }
 
 .title-center{
@@ -50,6 +59,12 @@ body, html {
 .top-text{
     font-size:2.6vh;
     text-align:justify;
+    color:#529FDB
+}
+
+.mid-text{
+    font-size:2.6vh;
+    text-align:justify;
 }
 
 .right{
@@ -59,5 +74,3 @@ body, html {
 .left{
     padding-left: 5vh;
 }
-
-/*Images*/
