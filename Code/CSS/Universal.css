@@ -14,8 +14,9 @@
      background: #000;
 }
 
-html{
+html, body{
     font-family:"Karma", sans-serif;
+    height: 100%;
     -webkit-text-size-adjust:100%;
     -ms-text-size-adjust:100%
 }
@@ -91,7 +92,7 @@ hr{
 
 @media (max-width: 767px){
     .add-mod{
-        width:100%;
+        width:50%;
     }
 }
 
@@ -101,4 +102,12 @@ hr{
   position: relative;
   overflow: hidden;
   font-size: 16px;
+}
+
+.block-mod-bot{
+    height:auto;
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
 }
