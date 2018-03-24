@@ -40,7 +40,6 @@ html {
     text-align: center;
     font-weight: bold;
     font-size: 6vh;
-    color: #529FDB;
 }
 
 .title-mid {
@@ -65,6 +64,18 @@ html {
     color: #fff;
 }
 
+.interview-title{
+    font-size:4vh;
+    text-align: left;
+    font-weight: bold;
+}
+
+.interview-text{
+    font-size:2.5vh;
+    font-weight:100;
+    text-align:justify;
+}
+
 .right {
     padding-right: 5vh;
 }
@@ -74,3 +85,9 @@ html {
 }
 
 /*Images*/
+
+
+/*Audio*/
+.audio-file{
+    width:100%;
+}
