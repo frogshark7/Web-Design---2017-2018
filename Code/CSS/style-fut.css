@@ -74,3 +74,28 @@ body, html {
 .left{
     padding-left: 5vh;
 }
+
+/*MOD Parallax*/
+.top{
+  background-image: url();
+  background-repeat:no-repeat;   
+  background-size:cover;
+  background-position: 50%;  
+  background-attachment: fixed;
+}
+
+.mid{
+  background-image: url();
+  background-repeat:no-repeat;   
+  background-size:cover;
+  background-position: 50%;  
+  background-attachment: fixed; 
+}
+
+.bot{
+  background-image: url();
+  background-repeat:no-repeat;   
+  background-size:cover;
+  background-position: 50%;  
+  background-attachment: fixed;
+}

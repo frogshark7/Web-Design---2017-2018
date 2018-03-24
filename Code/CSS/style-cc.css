@@ -16,10 +16,11 @@ html, body{
 /*TEXT*/
 .title{
     color:#fff;
-    margin-top: -85vh;
     text-align:center;
     font-weight: bold;
     font-size:7vh;
+    margin-right: 5vh;
+    margin-top:100px;
 }
 
 .type-title{
@@ -45,13 +46,12 @@ html, body{
 .right-text{
     float:right;
     text-align: justify;
-    margin-top: 7vh; 
     font-size: 4vh;
     color:#fff;
-    margin-right: 0vh;
+    margin-right: 5vh;
     position: relative;
     display: block;
-    transform: translateY(-50%);
+    margin-top:vh;
 }
 
 .image-stuck{
@@ -111,7 +111,8 @@ html, body{
   overflow: hidden;
   text-align: justify;
   background-image: url(../Pics/cc/Types-cc.svg);
-  background-repeat:no-repeat;   background-size:cover;
+  background-repeat:no-repeat;   
+  background-size:cover;
   background-position: 50%;  
   background-attachment: fixed;
 }
@@ -162,7 +163,8 @@ html, body{
 .t-mod{
     background-color: #434343;
     background-image: url(../Pics/cc/cc-deploy.svg);
-    background-repeat:no-repeat;   background-size:cover;
+    background-repeat:no-repeat; 
+    background-size:cover;
     background-position:50% 80%;
 }
 
@@ -178,7 +180,7 @@ html, body{
     color:#fff;
     background-color: #529FDB;
     padding: 2vh;
-    font-size:16px;
+    font-size:2.3vh;
     margin-top:8%;
 }
 
@@ -186,7 +188,7 @@ html, body{
     color:#fff;
     background-color: #529FDB;
     padding: 2vh;
-    font-size:16px;
+    font-size:2.3vh;
     margin-top:2%;
 }
 
@@ -213,7 +215,10 @@ html, body{
 }
 
 .top{
-    background-color:#434343;
+    background-image:url(../Pics/cc/cloud_net-cc.svg);
+    background-repeat:no-repeat;   
+    background-size:cover;
+    background-position: 50% -10%;
 }
 
 ul {
