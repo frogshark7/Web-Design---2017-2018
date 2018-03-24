@@ -1,70 +1,78 @@
-body, html {
-      margin: 0;
-      padding: 0;
-      width: 100%;
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 /*Parallax*/
+
 .img-parallax {
-  width: 100vmax;
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  pointer-events: none
+    width: 100vmax;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    pointer-events: none
 }
 
 /*Color*/
-.white{
-    color:#fff;
+
+.white {
+    color: #fff;
 }
 
-.black{
-    color:#000;
+.black {
+    color: #000;
 }
 
 /*Title*/
-.title{
+
+.title {
     margin-top: 100px;
-    text-align:center;
+    text-align: center;
     font-weight: bold;
-    font-size:6vh;
+    font-size: 6vh;
 }
 
 /*BODY TEXT*/
-.body-text{
-    font-size:2.6vh;
-    text-align:justify;
+
+.body-text {
+    font-size: 2.6vh;
+    text-align: justify;
 }
 
 /*Text-Bottom*/
+
 ul {
-  list-style-type: none;
-    margin-top:0;
+    list-style-type: none;
+    margin-top: 0;
 }
 
-.li-title{
-    font-size:4vh
+.li-title {
+    font-size: 4vh
 }
 
-.text-bottom{
+.text-bottom {
     text-align: justify;
-    overflow:auto;
-    font-size:2.6vh;
+    overflow: auto;
+    font-size: 2.6vh;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
 
-@media (min-height: 770px){
-    .title{
+@media (min-height: 770px) {
+    .title {
         margin-top: 5vh;
         padding-bottom: 2vh;
     }
-    .right-text, .left-text{
+    .right-text,
+    .left-text {
         margin-top: 40vh;
     }
 }
 
 /*MOD Images*/
-.mid-mod{
-  background-image: url(../Pics/Blue.svg);
+
+.mid-mod {
+    background-image: url(../Pics/Blue.svg);
 }

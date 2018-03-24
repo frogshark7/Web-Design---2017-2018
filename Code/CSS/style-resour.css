@@ -1,63 +1,64 @@
-body{
-    background-color:#529FDB;
+body {
+    background-color: #529FDB;
 }
 
-.resources{
-    margin-top:10vh;
+.resources {
+    margin-top: 10vh;
     height: 100%;
 }
 
-.title{
-    font-size:5vh;
-    font-weight:bold;
-    text-align:center;
+.title {
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
 }
 
-.white{
-    color:#fff;
+.white {
+    color: #fff;
 }
 
-.res-bar{
-    background-color:#529FDB;
-    margin-top:2vh;
-    font-size:4vh;
-    text-align:center;
-    margin-bottom:2vh;
-    width:100%;
+.res-bar {
+    background-color: #529FDB;
+    margin-top: 2vh;
+    font-size: 4vh;
+    text-align: center;
+    margin-bottom: 2vh;
+    width: 100%;
 }
 
-.res-bar:hover{
-    background-color:#fff;
-    width:100%;
+.res-bar:hover {
+    background-color: #fff;
+    width: 100%;
 }
 
-.collapse-link{
-    font-size:4vh;
-    color:#000;
+.collapse-link {
+    font-size: 4vh;
+    color: #000;
 }
 
-.collapse-info{
-    font-family:serif;
-    text-align:left;
-    font-size:3vh;
+.collapse-info {
+    font-family: serif;
+    text-align: left;
+    font-size: 3vh;
 }
 
-.footer{
-     position:fixed;
-     bottom:0;
+.footer {
+    position: fixed;
+    bottom: 0;
 }
 
-a, a:hover{
-    color:#000;
+a,
+a:hover {
+    color: #000;
 }
 
-.btn-style{
-    margin-top:2vh;
-    font-size:4vh;
-    text-align:center;
-    margin-bottom:3vh;
-    width:100%;
-    background-color:transparent;
-    border:0px solid transparent;
-    color:#000;
+.btn-style {
+    margin-top: 2vh;
+    font-size: 4vh;
+    text-align: center;
+    margin-bottom: 3vh;
+    width: 100%;
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: #000;
 }
