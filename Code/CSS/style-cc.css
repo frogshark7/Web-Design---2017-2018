@@ -254,3 +254,16 @@ ul {
 .right {
     margin-left: 5vh;
 }
+
+/*Uses IMG*/
+.uses-img-left{
+    width:18vh;
+    float:left;
+    margin-left:1vh;
+}
+
+.uses-img-right{
+    width:18vh;
+    float:right;
+    margin-right: 1vh;
+}

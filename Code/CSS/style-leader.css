@@ -6,7 +6,7 @@ html {
 }
 
 .cd-section{
-    height: 100%;
+    height: auto;
     
 }
 
@@ -126,4 +126,10 @@ html {
 /*Audio*/
 .audio-file {
     width: 100%;
+}
+
+
+
+.cd-section-bot {
+    height:auto;
 }
