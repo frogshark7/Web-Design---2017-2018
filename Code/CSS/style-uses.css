@@ -41,6 +41,10 @@ html {
     text-align: justify;
 }
 
+.right{
+    margin-right: 2vh;
+}
+
 /*Text-Bottom*/
 
 ul {

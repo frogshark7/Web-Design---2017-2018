@@ -5,8 +5,12 @@ html {
     width: 100%;
 }
 
-/*Color*/
+.cd-section{
+    height: 100%;
+    
+}
 
+/*Color*/
 .white {
     color: #fff;
 }
@@ -120,7 +124,6 @@ html {
 /*Images*/
 
 /*Audio*/
-
 .audio-file {
     width: 100%;
 }

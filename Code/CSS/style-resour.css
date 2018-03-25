@@ -1,5 +1,6 @@
 body {
     background-color: #529FDB;
+    overflow-y:hidden;
 }
 
 .resources {
