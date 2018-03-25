@@ -36,7 +36,7 @@ html {
 /*Title*/
 
 .title {
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
     font-weight: bold;
     font-size: 6vh;
@@ -48,6 +48,28 @@ html {
     font-weight: bold;
     font-size: 6vh;
     color: #fff;
+}
+
+.title-inter {
+    color: #529FDB;
+    position: relative;
+    font-weight: bold;
+    font-size: 4vh;
+    display: block;
+    text-align: left;
+    padding: 0;
+}
+
+.title-trans {
+    color: #529FDB;
+    position: relative;
+    font-weight: bold;
+    font-size: 4vh;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0px solid transparent;
 }
 
 /*BODY TEXT*/
@@ -64,16 +86,27 @@ html {
     color: #fff;
 }
 
-.interview-title{
-    font-size:4vh;
+.interview-title {
+    font-size: 4vh;
     text-align: left;
     font-weight: bold;
 }
 
-.interview-text{
-    font-size:2.5vh;
-    font-weight:100;
-    text-align:justify;
+.interview-text {
+    font-size: 2.5vh;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.collapse-info {
+    color: #fff;
+    font-size: 2.5vh;
+    text-align: justify;
+    font-weight: 10;
+    background-color: transparent;
+    padding-left:60px;
+    padding-right:30px;
+    
 }
 
 .right {
@@ -86,8 +119,8 @@ html {
 
 /*Images*/
 
-
 /*Audio*/
-.audio-file{
-    width:100%;
+
+.audio-file {
+    width: 100%;
 }
