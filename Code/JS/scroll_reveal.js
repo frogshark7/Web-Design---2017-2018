@@ -3,8 +3,6 @@ window.sr = ScrollReveal({
     reset: true
 });
 
-// Custom Settings
-sr.reveal('.foo', {
-    origin: 'right',
-    duration: 2000
+sr.reveal('.foo-1', {
+    viewFactor: 0.5
 });

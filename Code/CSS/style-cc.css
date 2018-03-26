@@ -116,8 +116,7 @@ body {
     background-image: url(../Pics/cc/Types-cc.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50%;
-    background-attachment: fixed;
+    background-position: 50% 35%;
 }
 
 .space {
@@ -223,6 +222,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% -10%;
+    background-attachment: fixed;
 }
 
 ul {
@@ -242,9 +242,10 @@ ul {
 }
 
 .bottom-appear {
+    background-image: url(../Pics/Blue.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% -200%;
+    background-attachment: fixed;
 }
 
 .bottom-image {
