@@ -116,7 +116,8 @@ body {
     background-image: url(../Pics/cc/Types-cc.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 35%;
+    background-position: 50% 50%;
+    background-attachment: fixed;
 }
 
 .space {
@@ -241,12 +242,7 @@ ul {
     color: #fff;
 }
 
-.bottom-appear {
-    background-image: url(../Pics/Blue.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 
 .bottom-image {
     height: auto;
