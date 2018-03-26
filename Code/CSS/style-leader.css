@@ -5,12 +5,13 @@ html {
     width: 100%;
 }
 
-.cd-section{
+.cd-section {
     height: auto;
-    
+
 }
 
-/*Color*/
+/*TEXT Prop*/
+
 .white {
     color: #fff;
 }
@@ -25,6 +26,10 @@ html {
 
 .blue {
     color: #529FDB;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 /*Parallax*/
@@ -79,10 +84,32 @@ html {
 /*BODY TEXT*/
 
 .top-text {
-    font-size: 2.6vh;
+    font-size: 2.5vh;
     text-align: justify;
     color: #fff;
-    margin-top:15vh;
+    margin-top: 50px;
+}
+
+.top-text-bot {
+    font-size: 2.5vh;
+    text-align: justify;
+    color: #fff;
+}
+
+.comp-bot{
+    bottom:0;
+}
+
+.comp-l {
+    width: 35%;
+    position: absolute;
+    left:0;
+}
+
+.comp-r {
+    width: 35%;
+    position: absolute;
+    right: 0;
 }
 
 .mid-text {
@@ -109,9 +136,17 @@ html {
     text-align: justify;
     font-weight: 100;
     background-color: transparent;
-    padding-left:60px;
-    padding-right:30px;
-    
+    padding-left: 60px;
+    padding-right: 30px;
+
+}
+
+.right-m {
+    margin-right: 5vh;
+}
+
+.left-m {
+    margin-left: 5vh;
 }
 
 .right {
@@ -123,8 +158,9 @@ html {
 }
 
 /*MOD*/
+
 .top {
-    background-image: url(../Pics/leaders/Blue_cloud.svg); 
+    background-image: url(../Pics/leaders/Blue_cloud.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 50%;
@@ -135,6 +171,7 @@ html {
 /*Images*/
 
 /*Audio*/
+
 .audio-file {
     width: 100%;
 }
@@ -142,5 +179,5 @@ html {
 
 
 .cd-section-bot {
-    height:auto;
+    height: auto;
 }
