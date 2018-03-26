@@ -136,7 +136,7 @@ html {
     text-align: justify;
     font-weight: 100;
     background-color: transparent;
-    padding-left: 60px;
+    padding-left: 80px;
     padding-right: 30px;
 
 }
@@ -166,6 +166,10 @@ html {
     background-position: 10% 50%;
     background-color: #529FDB;
     background-attachment: fixed;
+}
+
+.interview-sub{
+    margin-left: 30px;
 }
 
 /*Images*/
