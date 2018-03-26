@@ -5,11 +5,6 @@ html {
     width: 100%;
 }
 
-.cd-section {
-    height: auto;
-
-}
-
 /*TEXT Prop*/
 
 .white {
@@ -52,11 +47,17 @@ html {
 }
 
 .title-mid {
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     font-weight: bold;
     font-size: 6vh;
-    color: #fff;
+}
+
+.mid-text-title{
+    font-size:4vh;
+    font-weight: bold;
+    margin:0;
+    padding:0;
 }
 
 .title-inter {
@@ -115,7 +116,6 @@ html {
 .mid-text {
     font-size: 2.6vh;
     text-align: justify;
-    color: #fff;
 }
 
 .interview-title {
