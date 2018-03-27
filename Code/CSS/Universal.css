@@ -30,7 +30,7 @@ body {
 
 hr {
     width: 90%;
-
+    color:#000;
 }
 
 /*--Home Image-*/
@@ -118,8 +118,8 @@ a.active {
 .block-mod-bot {
     height: auto;
     width: 100%;
-    position: relative;
     overflow: hidden;
+    position: relative;
 }
 
 /*MOD Pics*/
