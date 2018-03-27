@@ -89,6 +89,7 @@ html {
 
 /*MOD Parallax*/
 .top {
+    background-color: #fff;
     background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,6 +98,7 @@ html {
 }
 
 .mid {
+    background-color: #529FDB;
     background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,6 +107,7 @@ html {
 }
 
 .bot {
+    background-color:#fff;
     background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,4 +118,5 @@ html {
 /*Images*/
 .img-collapse{
     margin-top: -50vh;
+    height:auto;
 }
