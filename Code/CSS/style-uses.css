@@ -38,6 +38,10 @@ html {
     font-size: 6vh;
 }
 
+div.grey-mod > p{
+    font-size:7vh;
+}
+
 /*BODY TEXT*/
 
 .body-text {
