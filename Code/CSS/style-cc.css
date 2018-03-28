@@ -115,8 +115,7 @@ body {
     background-image: url(../Pics/cc/Types-cc.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
-    background-attachment: fixed;
+    background-position: 50% 38%;
 }
 
 .space {
@@ -252,14 +251,15 @@ ul {
 }
 
 /*Uses IMG*/
-.uses-img-left{
-    width:18vh;
-    float:left;
-    margin-left:1vh;
+
+.uses-img-left {
+    width: 18vh;
+    float: left;
+    margin-left: 1vh;
 }
 
-.uses-img-right{
-    width:18vh;
-    float:right;
+.uses-img-right {
+    width: 18vh;
+    float: right;
     margin-right: 1vh;
 }
