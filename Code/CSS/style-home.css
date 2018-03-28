@@ -100,7 +100,7 @@ a.blue:hover {
     height: 100%;
     border-bottom: 0px solid transparent;
     height: 100vh;
-    background-color: #529FDB;
+    background-color:#529FDB;
 }
 
 #slider figure img {
@@ -114,7 +114,7 @@ a.blue:hover {
     width: 500%;
     margin: 0;
     right: 0;
-    animation: 16s slider infinite;
+    animation: 20s slider infinite;
 }
 
 .blue-back {
@@ -136,4 +136,19 @@ a.blue:hover {
     background-size: cover;
     background-position: 50% 37%;
     background-attachment: fixed;
+}
+
+/*Slideshow Images*/
+figure > img:nth-child(1){
+    margin-top:-20vh;
+}
+
+figure > img:nth-child(2){
+    margin-top:-5vh;
+}
+
+@media (min-height:800px){
+    figure > img:nth-child(2){
+    margin-top:5vh;
+}
 }
