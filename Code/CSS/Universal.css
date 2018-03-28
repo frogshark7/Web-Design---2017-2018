@@ -39,6 +39,13 @@ nav-home {
     top: 30px;
 }
 
+.m-right{
+    margin-right:25px;
+}
+
+.m-left{
+    margin-left:25px;
+}
 /*--Home Image Positioning-*/
 
 .nav-home-cloud {

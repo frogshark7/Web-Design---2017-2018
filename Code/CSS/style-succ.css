@@ -50,6 +50,10 @@ html {
     font-size: 6vh;
 }
 
+.li-title {
+    font-size: 4vh
+}
+
 /*BODY TEXT*/
 
 .top-text {
@@ -61,6 +65,11 @@ html {
     text-align: justify;
     margin-top: 0vh;
     font-size: 2.6vh;
+}
+
+.items{
+    font-size:2.6vh;
+    margin-bottom: 20px;
 }
 
 .right {
