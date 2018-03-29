@@ -63,7 +63,7 @@ div.grey-mod > p {
     height: 4vh;
     width: 100%;
     background-color: #529FDB;
-    margin-top: 35%;
+    margin-top: 40%;
 }
 
 .maj-con {
@@ -88,7 +88,6 @@ div.grey-mod > p {
 .left {
     padding-left: 10px;
     padding-top: 10px;
-
 }
 
 /*Text-Bottom*/
@@ -125,6 +124,14 @@ ul {
 }
 
 /*MOD*/
+
+.top {
+    background-image: url(../Pics/uses/viability.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 38%;
+}
+
 div.white-mod {
     margin-top: 10vh;
 }

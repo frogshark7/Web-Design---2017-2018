@@ -97,16 +97,14 @@ a.blue:hover {
 
 #slider {
     overflow: hidden;
-    height: 100%;
     border-bottom: 0px solid transparent;
     height: 100vh;
-    background-color:#529FDB;
+    background-color: #529FDB;
 }
 
 #slider figure img {
     width: 20%;
     float: left;
-    height: 100%;
 }
 
 #slider figure {
@@ -139,16 +137,23 @@ a.blue:hover {
 }
 
 /*Slideshow Images*/
-figure > img:nth-child(1){
-    margin-top:-20vh;
+
+figure > img:nth-child(1) {
+    margin-top: -20vh;
 }
 
-figure > img:nth-child(2){
-    margin-top:-5vh;
+figure > img:nth-child(2) {
+    margin-top: -18vh;
 }
 
-@media (min-height:800px){
-    figure > img:nth-child(2){
-    margin-top:5vh;
+@media (min-height:800px) {
+    figure > img:nth-child(1) {
+        margin-top: -10vh;
+    }
 }
+
+@media (min-height:800px) {
+    figure > img:nth-child(2) {
+        margin-top: -10vh;
+    }
 }
