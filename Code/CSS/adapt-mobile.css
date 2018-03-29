@@ -1,0 +1,34 @@
+/*INDEX*/
+@media (max-width:793px) {
+    .none-mob {
+        display: none;
+        position:absolute;
+    }
+    .none-back {
+        background-image: none;
+
+    }
+}
+
+@media (min-width:794px){
+    .app-mob{
+        display:none;
+    }
+}
+
+.app-mob{
+    margin-top:10vh;
+}
+/*CC*/
+
+/*USES*/
+
+/*SUCC*/
+
+/*HIS*/
+
+/*FUT*/
+
+/*LEADERS*/
+
+/**/

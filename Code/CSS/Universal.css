@@ -30,7 +30,7 @@ body {
 
 hr {
     width: 90%;
-    color:#000;
+    color: #000;
 }
 
 /*--Home Image-*/
@@ -39,13 +39,14 @@ nav-home {
     top: 30px;
 }
 
-.m-right{
-    margin-right:25px;
+.m-right {
+    margin-right: 25px;
 }
 
-.m-left{
-    margin-left:25px;
+.m-left {
+    margin-left: 25px;
 }
+
 /*--Home Image Positioning-*/
 
 .nav-home-cloud {
@@ -138,6 +139,12 @@ a.active {
     background-color: #434343;
 }
 
-.white-mod{
+.white-mod {
     background-color: #fff;
+}
+
+@media (max-width:793px) {
+    .block {
+        height: auto !important;
+    }
 }
