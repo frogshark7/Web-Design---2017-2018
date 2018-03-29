@@ -150,6 +150,10 @@ figure > img:nth-child(3) {
     margin-top: -18vh;
 }
 
+figure > img:nth-child(4) {
+    margin-top: -11vh;
+}
+
 @media (min-height:800px) {
     figure > img:nth-child(1) {
         margin-top: -10vh;
@@ -165,5 +169,11 @@ figure > img:nth-child(3) {
 @media (min-height:800px) {
     figure > img:nth-child(3) {
         margin-top: -9vh;
+    }
+}
+
+@media (min-height:800px) {
+    figure > img:nth-child(4) {
+        margin-top: 2vh;
     }
 }
