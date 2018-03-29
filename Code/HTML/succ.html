@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../CSS/cdnbootstrap.css">
     <link rel="stylesheet" href="../CSS/style-succ.css">
     <link rel="stylesheet" href="../CSS/Universal.css">
+    <link rel="stylesheet" href="../CSS/adapt-mobile.css">
     <!--JS-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
@@ -200,19 +201,6 @@
         <div><br>TSA Web Design 2017-2018<br></div>
     </footer>
     <!--Footer END-->
-    <script>
-        var cssId = 'myCss';
-        if (/Android|webOS|Mobile|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-            var head = document.getElementsByTagName('head')[0];
-            var link = document.createElement('link');
-            link.id = cssId;
-            link.rel = 'stylesheet';
-            link.type = 'text/css';
-            link.href = '../CSS/adapt-mobile.css';
-            link.media = 'all';
-            head.appendChild(link);
-        }
-    </script>
     <script>
         var $animation_elements = $('.animation-element');
         var $window = $(window);
