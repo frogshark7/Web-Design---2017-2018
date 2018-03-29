@@ -1,13 +1,11 @@
 /*INDEX*/
 
 @media (max-width:793px) {
-    html,
-    body {}
     .none-mob {
-        display: none;
-        position: absolute;
-        height: auto;
-        color: transparent;
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
     }
     .none-back {
         background-image: none !important;
@@ -18,17 +16,17 @@
     }
 
     .white-lead {
-        background-color: #fff;
+        background-color: #fff !important;
     }
 }
 
 @media (min-width:794px) {
     .app-mob {
-        display: none;
+        display: none !important;
     }
 }
 
 .app-mob {
-    margin-top: 70px;
-    font-size: 4vh;
+    margin-top: 70px !important;
+    font-size: 4vh !important;
 }
