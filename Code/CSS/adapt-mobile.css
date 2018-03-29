@@ -1,36 +1,34 @@
 /*INDEX*/
-@media (max-width:793px) {
-    html, body{
 
-    }
+@media (max-width:793px) {
+    html,
+    body {}
     .none-mob {
         display: none;
-        position:absolute;
-        height:auto;
+        position: absolute;
+        height: auto;
+        color: transparent;
     }
     .none-back {
-        background-image: none;
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff;
     }
 }
 
-@media (min-width:794px){
-    .app-mob{
-        display:none;
+@media (min-width:794px) {
+    .app-mob {
+        display: none;
     }
 }
 
-.app-mob{
-    margin-top:70px;
-    font-size:4vh;
+.app-mob {
+    margin-top: 70px;
+    font-size: 4vh;
 }
-/*CC*/
-
-/*USES*/
-
-/*SUCC*/
-
-/*HIS*/
-
-/*FUT*/
-
-/*LEADERS*/
