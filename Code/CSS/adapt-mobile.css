@@ -1,12 +1,15 @@
 /*INDEX*/
 @media (max-width:793px) {
+    html, body{
+
+    }
     .none-mob {
         display: none;
         position:absolute;
+        height:auto;
     }
     .none-back {
         background-image: none;
-
     }
 }
 
@@ -17,7 +20,8 @@
 }
 
 .app-mob{
-    margin-top:10vh;
+    margin-top:70px;
+    font-size:4vh;
 }
 /*CC*/
 
@@ -30,5 +34,3 @@
 /*FUT*/
 
 /*LEADERS*/
-
-/**/
