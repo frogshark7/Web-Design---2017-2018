@@ -1,6 +1,12 @@
 /*INDEX*/
 
-@media only screen and (max-width:793px) {
+.app-mob {
+    display: none;
+}
+
+/*************************************************************/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
     .none-mob {
         display: none !important;
         position: absolute !important;
@@ -18,15 +24,780 @@
     .white-lead {
         background-color: #fff !important;
     }
-}
 
-@media only screen and (min-width:794px) {
     .app-mob {
-        display: none !important;
+        display: unset;
     }
 }
 
-.app-mob {
-    margin-top: 70px !important;
-    font-size: 4vh !important;
+/* Portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/*******************************************/
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Portrait */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Landscape */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Portrait */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/***********************************************/
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Portrait */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* ----------- Google Pixel XL ----------- */
+
+/* Portrait and Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Portrait */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/**************************************************/
+
+/* ----------- Windows Phone ----------- */
+
+/* Portrait and Landscape */
+
+@media screen and (device-width: 480px) and (device-height: 800px) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Portrait */
+
+@media screen and (device-width: 480px) and (device-height: 800px) and (orientation: portrait) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Landscape */
+
+@media screen and (device-width: 480px) and (device-height: 800px) and (orientation: landscape) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/**************************************************/
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Portrait */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
 }

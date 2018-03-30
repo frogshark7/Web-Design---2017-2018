@@ -47,6 +47,11 @@ div.grey-mod > p {
 .body-text {
     font-size: 3vh;
     text-align: justify;
+    width:90%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:20px;
 }
 
 .items {
@@ -129,9 +134,6 @@ ul {
     background-image: url(../Pics/uses/viability.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 38%;
-}
-
-div.white-mod {
-    margin-top: 10vh;
+    background-position: 50% 20%;
+    margin-top: 0;
 }
