@@ -5,11 +5,11 @@ html {
     width: 100%;
 }
 
-a.link {
+a.link:link {
     text-decoration: underline;
 }
 
-a:visited {
+a.link:visited {
     color: #434343;
 }
 
