@@ -103,7 +103,6 @@ html {
 /*MOD Parallax*/
 
 .top {
-    background-color: #fff;
     background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,8 +111,7 @@ html {
 }
 
 .mid {
-    background-color: #529FDB;
-    background-image: url();
+    background-image: url(../Pics/Blue.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -121,7 +119,6 @@ html {
 }
 
 .bot {
-    background-color: #fff;
     background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
