@@ -3,6 +3,7 @@ html {
     margin: 0;
     padding: 0;
     width: 100%;
+
 }
 
 /*Color*/
@@ -24,6 +25,7 @@ html {
 }
 
 /*Parallax*/
+
 .img-parallax {
     width: 100vmax;
     z-index: -1;
@@ -33,6 +35,7 @@ html {
 }
 
 /*Title*/
+
 .title {
     margin-top: 80px;
     text-align: center;
@@ -41,9 +44,9 @@ html {
     color: #529FDB;
 }
 
-.sub-title{
+.sub-title {
     font-weight: bold;
-    font-size:4vh;
+    font-size: 4vh;
 }
 
 .mid-title {
@@ -62,6 +65,12 @@ html {
     font-size: 6vh;
 }
 
+.li-title {
+    font-weight: bold;
+    font-size: 4vh;
+    color: #529FDB;
+}
+
 /*BODY TEXT*/
 
 .top-text {
@@ -70,13 +79,17 @@ html {
     color: #529FDB
 }
 
-.collapse-info{
+.collapse-info {
     font-size: 2.5vh;
 }
 
 .mid-text {
     font-size: 2.6vh;
     text-align: justify;
+}
+
+.items {
+    font-size: 2.6vh;
 }
 
 .right {
@@ -88,6 +101,7 @@ html {
 }
 
 /*MOD Parallax*/
+
 .top {
     background-color: #fff;
     background-image: url();
@@ -107,7 +121,7 @@ html {
 }
 
 .bot {
-    background-color:#fff;
+    background-color: #fff;
     background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,7 +130,8 @@ html {
 }
 
 /*Images*/
-.img-collapse{
+
+.img-collapse {
     margin-top: -50vh;
-    height:auto;
+    height: auto;
 }
