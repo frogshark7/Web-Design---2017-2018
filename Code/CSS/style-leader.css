@@ -172,17 +172,6 @@ html {
     margin-left: 30px;
 }
 
-@media (max-width: 793px) {
-    section.auto {
-        background-image: url(../Pics/leaders/Top-mod.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 10% 50%;
-        background-color: #529FDB;
-        background-attachment: fixed;
-    }
-}
-
 /*Images*/
 
 /*Audio*/
