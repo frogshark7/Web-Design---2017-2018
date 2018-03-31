@@ -41,6 +41,9 @@ body {
     text-align: left;
     font-size: 2.5vh;
     text-align: center;
+    background-color: #fff;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 footer {

@@ -6,31 +6,30 @@
 
 /*************************************************************/
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-    .none-mob {
-        display: none !important;
-        position: absolute !important;
-        height: auto !important;
-        color: transparent !important;
-    }
-    .none-back {
-        background-image: none !important;
-    }
-
-    .auto {
-        height: auto !important;
-    }
-
-    .white-lead {
-        background-color: #fff !important;
-    }
-
-    .app-mob {
-        display: unset;
-    }
+.none-mob {
+    display: none !important;
+    position: absolute !important;
+    height: auto !important;
+    color: transparent !important;
 }
 
-/* Portrait */
+.none-back {
+    background-image: none !important;
+}
+
+.auto {
+    height: auto !important;
+}
+
+.white-lead {
+    background-color: #fff !important;
+}
+
+.app-mob {
+    display: unset;
+}
+
+/*******************************************************************/
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .none-mob {
@@ -779,6 +778,86 @@
 /* Landscape */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/************************************************/
+
+/*S8 Screen*/
+
+@media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Portrait */
+
+@media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+    .none-mob {
+        display: none !important;
+        position: absolute !important;
+        height: auto !important;
+        color: transparent !important;
+    }
+    .none-back {
+        background-image: none !important;
+    }
+
+    .auto {
+        height: auto !important;
+    }
+
+    .white-lead {
+        background-color: #fff !important;
+    }
+
+    .app-mob {
+        display: unset;
+    }
+}
+
+/* Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
     .none-mob {
         display: none !important;
         position: absolute !important;
