@@ -103,13 +103,13 @@ html {
 
 .comp-l {
     width: 35%;
-    position: absolute;
+    position: fixed;
     left: 0;
 }
 
 .comp-r {
     width: 35%;
-    position: absolute;
+    position: fixed;
     right: 0;
 }
 
@@ -172,17 +172,14 @@ html {
     margin-left: 30px;
 }
 
-.app-mob {
-    display: none;
-}
-
 @media (max-width: 793px) {
-    .none-mob {
-        display: none;
-    }
-    .app-mob {
-        display: unset;
-        background-color: #000;
+    section.auto {
+        background-image: url(../Pics/leaders/Top-mod.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 10% 50%;
+        background-color: #529FDB;
+        background-attachment: fixed;
     }
 }
 
