@@ -168,18 +168,18 @@ figure > img:nth-child(4) {
 
 @media (min-height:800px) {
     figure > img:nth-child(2) {
-        margin-top: -10vh;
+        margin-top: -12vh;
     }
 }
 
 @media (min-height:800px) {
     figure > img:nth-child(3) {
-        margin-top: -9vh;
+        margin-top: -15vh;
     }
 }
 
 @media (min-height:800px) {
     figure > img:nth-child(4) {
-        margin-top: 2vh;
+        margin-top: 1vh;
     }
 }

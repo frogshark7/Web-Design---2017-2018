@@ -1,6 +1,5 @@
 body {
     background-color: #529FDB;
-    overflow-y:hidden;
 }
 
 .resources {
@@ -29,7 +28,7 @@ body {
 
 .res-bar:hover {
     background-color: #fff;
-    width: 100%;
+    width: 9s0%;
 }
 
 .collapse-link {
@@ -40,12 +39,12 @@ body {
 .collapse-info {
     font-family: serif;
     text-align: left;
-    font-size: 3vh;
+    font-size: 2.5vh;
+    text-align: center;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
+footer {
+    background-color: transparent !important;
 }
 
 a,
