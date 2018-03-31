@@ -172,6 +172,20 @@ html {
     margin-left: 30px;
 }
 
+.app-mob {
+    display: none;
+}
+
+@media (max-width: 793px) {
+    .none-mob {
+        display: none;
+    }
+    .app-mob {
+        display: unset;
+        background-color: #000;
+    }
+}
+
 /*Images*/
 
 /*Audio*/

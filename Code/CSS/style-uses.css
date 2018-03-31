@@ -61,6 +61,7 @@ div.grey-mod > p {
 
 .maj-mod {
     font-size: 2.5vh;
+    text-align: justify;
     background-color: #529FDB;
 }
 
