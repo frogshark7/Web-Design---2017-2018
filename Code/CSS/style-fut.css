@@ -80,7 +80,7 @@ html {
 }
 
 .collapse-info {
-    font-size: 2.5vh;
+    font-size: 3vh;
 }
 
 .mid-text {
@@ -90,6 +90,7 @@ html {
 
 .items {
     font-size: 2.6vh;
+    text-align: justify;
 }
 
 .right {
@@ -131,4 +132,12 @@ html {
 .img-collapse {
     margin-top: -50vh;
     height: auto;
+}
+
+
+.img-bot {
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
