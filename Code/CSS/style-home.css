@@ -5,29 +5,25 @@ html {
     width: 100%;
 }
 
-a.link:link {
+.link {
     text-decoration: underline;
 }
 
-a.link:visited {
-    color: #434343;
-}
-
-a.white:hover {
+.white:hover {
     color: #000;
 }
 
-a.blue:hover {
+.blue:hover {
     color: #000;
 }
 
-a.white,
-a.white:active {
+.white,
+.white:active {
     color: #529FDB;
 }
 
-a.blue,
-a.blue:active {
+.blue,
+.blue:active {
     color: #fff;
 }
 
