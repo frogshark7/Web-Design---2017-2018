@@ -149,4 +149,8 @@ a.active {
     .block {
         height: auto !important;
     }
+    .index-mod,
+    .index-mod-bot {
+        background-attachment: none;
+    }
 }

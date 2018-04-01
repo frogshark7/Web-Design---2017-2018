@@ -142,6 +142,13 @@ a.blue:active {
     background-attachment: fixed;
 }
 
+@media (max-width:793px) {
+    .index-mod,
+    .index-mod-bot {
+        background-attachment: scroll !important;
+    }
+}
+
 /*Slideshow Images*/
 
 figure > img:nth-child(1) {

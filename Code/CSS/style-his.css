@@ -28,10 +28,10 @@ html {
 .body-text {
     text-align: justify;
     margin-top: -70vh;
-    width: 90%;
+    width: 100%;
     font-size: 3vh;
     display: block;
-    margin-left: 10vh;
+    margin-left: 5vh;
 }
 
 .white {
@@ -139,10 +139,10 @@ html {
 
 .arrow {
     position: absolute;
-    margin-top: -13vh;
+    margin-top: -12vh;
     left: 50%;
-    width: 24px;
-    height: 24px;
+    width: 4vh;
+    height: 4vh;
     border-left: 5px solid #000;
     /*Width*/
     border-bottom: 5px solid #000;
@@ -184,10 +184,4 @@ html {
 
 }
 
-@media (min-height: 814px) {
-    .body-text {
-        width: 50%;
-        margin-left: 28%
-    }
-
-}
+@media (min-height: 814px) {}
