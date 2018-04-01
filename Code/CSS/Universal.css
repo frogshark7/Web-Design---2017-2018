@@ -65,9 +65,18 @@ nav-home {
     position: relative;
     bottom: 0;
 }
-
-a.active {
-    background: #fff;
+/*---Hyperlink Formatting---*/
+a.link-blue-black:link {
+    color: #fff;
+}
+a.link-blue-black:visited {
+    color: #434343;
+}
+a.link-blue-black:hover {
+    color: #000;
+}
+a.link-blue-black:active {
+    color: #fff;
 }
 
 .dropdown {
