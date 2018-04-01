@@ -230,7 +230,8 @@
     </script>
     <script src="../JS/parallax.js"></script>
     <script>
-        var $myGroup = $('#myGroup');
+		var $myGroup = $('#myGroup');
+		$myGroup.find('.collapse').collapse('true');
         $myGroup.on('show.bs.collapse', '.collapse', function() {
             $myGroup.find('.collapse.show').collapse('hide');
         });
