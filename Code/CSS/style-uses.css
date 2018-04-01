@@ -7,6 +7,8 @@ html {
 
 /*Parallax*/
 
+/*Parallax*/
+
 .img-parallax {
     width: 100vmax;
     z-index: -1;
@@ -130,8 +132,7 @@ div.grey-mod > p {
 }
 
 .img-bot {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: block;
     width: 100%;
 }

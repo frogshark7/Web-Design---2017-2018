@@ -6,17 +6,6 @@ html {
 
 }
 
-/*Parallax*/
-
-.img-parallax {
-    width: 100vmax;
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    transform: translate(-50%, 0);
-    pointer-events: none
-}
-
 /*Color*/
 
 .white {
@@ -61,7 +50,7 @@ html {
 }
 
 .mid-title {
-    margin-top: 100px;
+    margin-top: 10vh;
     text-align: center;
     font-weight: bold;
     font-size: 6vh;
@@ -95,7 +84,7 @@ html {
 }
 
 .mid-text {
-    font-size: 3.2vh;
+    font-size: 3.1vh;
     text-align: justify;
 }
 
@@ -114,27 +103,11 @@ html {
 
 /*MOD Parallax*/
 
-.top {
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    background-attachment: fixed;
-}
-
 .mid {
-    background-image: url(../Pics/);
+    background-image: url(../Pics/fut/Graph.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50%;
-    background-attachment: fixed;
-}
-
-.bot {
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
+    background-position: 0%;
     background-attachment: fixed;
 }
 
@@ -145,14 +118,20 @@ html {
     height: auto;
 }
 
+.mark-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -90vh;
+    position: fixed;
+    width: 48%;
+}
 
 .img-bot {
     height: 20vh;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
-
 
 /*Text-bot Animation*/
 
