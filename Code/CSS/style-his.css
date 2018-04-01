@@ -28,12 +28,10 @@ html {
 .body-text {
     text-align: justify;
     margin-top: -70vh;
-    margin-left: 31%;
-    width: 43%;
+    width: 90%;
     font-size: 3vh;
     display: block;
-    position: absolute;
-
+    margin-left: 10vh;
 }
 
 .white {
