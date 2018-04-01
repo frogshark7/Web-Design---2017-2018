@@ -101,7 +101,7 @@ html {
     padding-left: 5vh;
 }
 
-/*MOD Parallax*/
+/*MOD*/
 
 .mid {
     background-image: url(../Pics/fut/Graph.svg);
@@ -109,6 +109,12 @@ html {
     background-size: cover;
     background-position: 0%;
     background-attachment: fixed;
+}
+
+@media (min-width:1500px) {
+    .block {
+        height: auto !important;
+    }
 }
 
 /*Images*/

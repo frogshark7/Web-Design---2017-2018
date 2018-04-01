@@ -231,10 +231,7 @@ th {
         -webkit-box-shadow: none!important;
         box-shadow: none!important
     }
-    a,
-    a:visited {
-        text-decoration: underline
-    }
+
     a[href]:after {
         content: " (" attr(href) ")"
     }
@@ -1400,11 +1397,7 @@ a {
     text-decoration: none
 }
 
-a:focus,
-a:hover {
-    color: #23527c;
-    text-decoration: underline
-}
+
 
 a:focus {
     outline: 5px auto -webkit-focus-ring-color;
@@ -5586,7 +5579,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .disabled > a:focus,
 .navbar-default .navbar-nav > .disabled > a:hover {
     color: #ccc;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
