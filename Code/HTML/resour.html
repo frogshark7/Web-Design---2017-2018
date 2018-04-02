@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../CSS/cdnbootstrap.css">
     <link rel="stylesheet" href="../CSS/style-resour.css">
     <link rel="stylesheet" href="../CSS/Universal.css">
+    <link rel="stylesheet" href="../CSS/adapt-mobile.css">
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -107,11 +108,15 @@
             <h1 class="res-bar"><button type="submit" class="btn-style">Leap Response</button></h1>
         </form>
 
-        <p class="title white">Click to Expand</p>
-        <a style="text-decoration:none;" class="collapse-link" data-toggle="collapse" data-target="#cit">
-            <div class="col-sm-12 col-md-12 col-lg-12 res-bar" class="res-bar">
+        <form method="get" action="../Downloads/bibliography.pdf" target="_blank">
+            <h1 class="res-bar"><button type="submit" class="btn-style add-mob">Bibliography</button></h1>
+        </form>
+
+        <p class="title white none-mob">Click to Expand</p>
+        <a style="text-decoration:none;" class="collapse-link none-mob" data-toggle="collapse" data-target="#cit">
+            <div class="col-sm-12 col-md-12 col-lg-12 res-bar" class="res-bar none-mob">
                 Bibliography
-                <div id="cit" class="collapse collapse-info">
+                <div id="cit" class="collapse collapse-info none-mob">
                     Hur, Johnson. “The History of SaaS.” BeBusinessed: No Nonsense Advice, How-To's, Reviews, 6 Sept. 2017, bebusinessed.com/history/the-history-of-saas/. <br>
                     <hr> “Power Your Business with the Best of the Web.” Salesforce.com, Salesforce, www.salesforce.com/saas/.<br>
                     <hr> “A History of Cloud Computing.” ComputerWeekly.com, TechTarget, <br>
