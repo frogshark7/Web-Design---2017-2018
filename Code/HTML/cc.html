@@ -111,33 +111,33 @@
         <div>
             <img src="../Pics/cc/Types-cc.svg" class="cc-img-add-mid add-por foo-1">
         </div>
-        <div id="myGroup " class="Sub-head none-por">
+        <div id="myGroup" class="Sub-head none-por">
             <div class="panel white ">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 row title-coll " role="button " data-toggle="collapse " data-parent="#myGroup " href="#collapseOne " aria-expanded="false " aria-controls="collapseOne ">
-                    <div class="col-xs-4 foo-1 " data-toggle="tooltip " title="Infrastructure as a Service ">IaaS</div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 row title-coll" role="button" data-toggle="collapse" data-parent="#myGroup" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <div class="col-xs-4 foo-1" data-toggle="tooltip" title="Infrastructure as a Service">IaaS</div>
                 </div>
 
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 row title-coll " role="button " data-toggle="collapse " data-parent="#myGroup " href="#collapseTwo " aria-expanded="false " aria-controls="collapseTwo ">
-                    <div class="col-xs-4 foo-1 " data-toggle="tooltip " title="Platform as a Service ">PaaS</div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 row title-coll" role="button" data-toggle="collapse" data-parent="#myGroup" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo ">
+                    <div class="col-xs-4 foo-1 " data-toggle="tooltip" title="Platform as a Service ">PaaS</div>
                 </div>
 
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 row title-coll " role="button " data-toggle="collapse " data-parent="#myGroup " href="#collapseThree " aria-expanded="false " aria-controls="collapseThree ">
-                    <div class="col-xs-4 foo-1 " data-toggle="tooltip " title="Software as a Service ">SaaS</div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 row title-coll" role="button" data-toggle="collapse" data-parent="#myGroup" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <div class="col-xs-4 foo-1" data-toggle="tooltip" title="Software as a Service">SaaS</div>
                 </div>
 
-                <div id="collapseOne " class="collapse text-collapse ">
+                <div id="collapseOne" class="collapse text-collapse">
                     <p>
                         Infrastructure as a Service is the basic physical and organizational structures and facilities needed for the operation of a society or enterprise. Infrastructure as a Service is when you rent an infrastructure like a server, storage, operating system, etc., from a wireless provider. Some IaaS examples are servers and storage, networking firewalls and security, a data center, and a physical plant or building.
                     </p>
                 </div>
 
-                <div id="collapseTwo " class="collapse text-collapse ">
+                <div id="collapseTwo" class="collapse text-collapse">
                     <p>
                         Platform as a Service is a bit broader than Infrastructure as a Service, since Infrastructure as a Service is part of Platform as a Service. Platform as a Service is a Cloud computing service based off of a computer platform such as google docs. It is used with operating systems, development tools on a computer, database management, business analytics, and all of the uses listed under Infrastructure as a Service. Private PaaS servers Allow people to manage applications while still keeping it’s privacy. Some companies that use private PaaS servers are Google, Amazon, and Windows.
                     </p>
                 </div>
 
-                <div id="collapseThree " class="collapse text-collapse ">
+                <div id="collapseThree" class="collapse text-collapse">
                     <p>
                         Software as a Service is like a bank. It protects the valuables and privacy of its customers, while providing reliable service. Software as a Service is a service where something is downloaded as a software onto a device. This counts as apps, launchers, and all of the uses listed in Platform as a Service and Infrastructure as a Service. Software as a Service is also a way of transmitting applications over the Cloud, Hence the word Software in its name. Because of this, Software as a Service Frees up time and hassle from managing Software and hardware. Some advantages of this service are its Painless and hassle free Upgrades, its low initial cost, it is integrated into the computer system seamlessly, and it is adopted by many.
                     </p>
@@ -182,7 +182,7 @@
 
         </div>
 
-        <div class="add-por white" style="border-bottom: 10px solid #434343;">
+        <div class="add-por white">
             <p class="text-mid-cc foo-1 foo-1" style="margin-top:;">
                 <span style="font-size:2vh; font-weight:bold;">Public Cloud</span><br> The Public cloud is a cloud service that is owned and operated by a third-party provider. In this type of cloud service, the provider has complete management over the service. Though the public, Public Cloud has a reasonable amount of security, it’s not the best option if security is a concern.
                 <img src="../Pics/cc/public-cloud.svg " class="por-bot-img foo-1">
@@ -299,8 +299,8 @@
     </script>
     <script>
         var $myGroup = $('#myGroup');
-        $myGroup.on('show.bs.collapse', '.collapse', function() {
-            $myGroup.find('.collapse.show').collapse('hide');
+        $myGroup.find('.collapse').collapse('true');
+        $myGroup.find('.collapse.show').collapse('hide');
         });
 
     </script>
