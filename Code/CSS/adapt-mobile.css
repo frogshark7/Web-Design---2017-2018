@@ -148,6 +148,12 @@
         margin-left: auto;
         margin-right: auto;
     }
+    #slider {
+        height: auto;
+    }
+    figure > img {
+        margin-top: 1vh !important;
+    }
 }
 
 /* Landscape */
