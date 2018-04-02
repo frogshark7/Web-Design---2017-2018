@@ -134,6 +134,10 @@
         height: auto;
     }
 
+    .por-sub-title {
+        font-size: 2vh !important;
+    }
+
     /*Index */
     .img-text {
         font-size: 1.5vh !important;
@@ -190,13 +194,30 @@
         display: block;
     }
     .title-por {
-        font-size: 3vh;
+        font-size: 3vh !important;
     }
     .por-bot-img {
         height: 10vh;
         margin-left: auto;
         margin-right: auto;
         display: block;
+    }
+    /*Uses*/
+    .uses-por-text {
+        font-size: 1vh !important;
+    }
+    .m-left {
+        margin-left: 0vh !important;
+    }
+    .add-por-uses-img {
+        height: 25vh;
+        display: block;
+        margin-top: 8vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .maj-por-text {
+        font-size: 1.4vh !important;
     }
 }
 
