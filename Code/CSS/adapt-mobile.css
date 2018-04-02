@@ -81,7 +81,8 @@
     /*Background Parallax Fix*/
     .index-mod,
     .index-mod-bot,
-    .top-cc {
+    .top-cc,
+    mid {
         background-attachment: scroll !important;
         background-position: 50% 50% !important;
     }
@@ -240,6 +241,25 @@
     .timeline {
         width: 100%;
         margin-top: 0vh;
+    }
+    /*Fut*/
+    .img-collapse {
+        margin-top: -15vh !important;
+        height: 20vh;
+    }
+    .mid-title {
+        margin-top: 5vh !important;
+    }
+    .mob-fut-por {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mark-por-text {
+        font-size: 1vh;
+    }
+    .graph-por-img {
+        margin-top: 8vh;
     }
 }
 
