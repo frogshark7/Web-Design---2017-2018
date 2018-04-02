@@ -98,7 +98,7 @@
     </nav>
 
     <section class="cd-section visible auto" id="71">
-        <div class="block top-lead none-back" id="remove">
+        <div class="top-lead none-back" id="remove" style="height:100%; width:100%;">
 
             <div class="row white top-text">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 grey-mod comp-l">
@@ -171,7 +171,7 @@
                         <p class="interview-text white">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <audio controls="controls" class="audio-file">
+                        <audio controls="controls" class="audio-file" style="margin-bottom: 10px;">
                         <source src="audio/interview1.mp3" type="audio/mpeg">
                         Your browser does not support the audio element. This means that you are using a browser that was not mentioned in the Website Design specification. Given that you understand this, you may download it <a href="audio/interview1.mp3">here</a>.
                         </audio> Interview with ...
@@ -275,18 +275,6 @@
                     }
                 }
             });
-
-    </script>
-    <script>
-        $(window).on('resize', function() {
-            if ($(window).width() > 793) {
-                $('#remove').addClass('');
-                $('#remove').removeClass('block');
-            } else {
-                $('#remove').addClass('block');
-                $('#remove').removeClass('');
-            }
-        })
 
     </script>
 </body>

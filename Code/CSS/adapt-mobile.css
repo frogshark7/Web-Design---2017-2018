@@ -1,22 +1,31 @@
-/*Landscape*/
-
 /*Universal*/
 
 .add-mob {
     display: none;
 }
 
-/*Background Parallax Fix*/
+.add-por {
+    display: none;
+}
 
-@media only screen and (max-device-width: 793px) {
+@media only screen and (min-width: 320px) {}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
     .none-back {
         background-image: none !important;
     }
-
     .none-mob {
         display: none;
     }
-
     /*Background Parallax Fix*/
     .index-mod,
     .index-mod-bot,
@@ -24,31 +33,26 @@
         background-attachment: scroll !important;
         background-position: 50% 50% !important;
     }
-
     /*Elements Appear*/
     .add-mob {
         display: unset;
     }
-
     .mob-fut-img {
         height: 80vh;
         margin: auto;
         display: block;
         margin-top: 10vh;
     }
-
     .mob-cc-img {
         height: 80vh;
         margin: auto;
         display: block;
         margin-top: 15vh;
     }
-
     /*Auto Height Block*/
     .block {
         height: auto !important;
     }
-
     .auto {
         height: 100%;
         background-image: url(../Pics/leaders/Top-mod.svg);
@@ -59,41 +63,138 @@
     }
 }
 
-/*******************************************/
-
-/*Universal*/
-
-/*
-.none-por{
-display:none;
-}
-
-.back-por{
-background-image:none;
-}
-*/
-
-@media only screen and (min-width: 320px) {}
-
-/*Portrait*/
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
-
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
 /* Portrait */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
 
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .none-back {
+        background-image: none !important;
+    }
+    .none-mob {
+        display: none;
+    }
+    /*Background Parallax Fix*/
+    .index-mod,
+    .index-mod-bot,
+    .top-cc {
+        background-attachment: scroll !important;
+        background-position: 50% 50% !important;
+    }
+    /*Elements Appear*/
+    .add-mob {
+        display: unset;
+    }
+    .mob-fut-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 10vh;
+    }
+    .mob-cc-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 15vh;
+    }
+    /*Auto Height Block*/
+    .block {
+        height: auto !important;
+    }
+    .auto {
+        height: 100%;
+        background-image: url(../Pics/leaders/Top-mod.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #529FDB;
+    }
+}
+
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
 /* Portrait */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+    .add-por {
+        display: block;
+    }
+    .none-por {
+        display: none !important;
+    }
+    .back-por {
+        background-image: none !important;
+    }
+    .block {
+        height: auto;
+    }
+
+    /*Index */
+    .img-text {
+        font-size: 1.5vh !important;
+        display: block;
+        width: 100%;
+        margin-top: 10vh;
+    }
+
+    .index-add-img {
+        height: 45vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .none-back {
+        background-image: none !important;
+    }
+    .none-mob {
+        display: none;
+    }
+    /*Background Parallax Fix*/
+    .index-mod,
+    .index-mod-bot,
+    .top-cc {
+        background-attachment: scroll !important;
+        background-position: 50% 50% !important;
+    }
+    /*Elements Appear*/
+    .add-mob {
+        display: unset;
+    }
+    .mob-fut-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 10vh;
+    }
+    .mob-cc-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 15vh;
+    }
+    /*Auto Height Block*/
+    .block {
+        height: auto !important;
+    }
+    .auto {
+        height: 100%;
+        background-image: url(../Pics/leaders/Top-mod.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #529FDB;
+    }
+}
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
@@ -101,13 +202,103 @@ background-image:none;
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
 
+/* Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    .none-back {
+        background-image: none !important;
+    }
+    .none-mob {
+        display: none;
+    }
+    /*Background Parallax Fix*/
+    .index-mod,
+    .index-mod-bot,
+    .top-cc {
+        background-attachment: scroll !important;
+        background-position: 50% 50% !important;
+    }
+    /*Elements Appear*/
+    .add-mob {
+        display: unset;
+    }
+    .mob-fut-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 10vh;
+    }
+    .mob-cc-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 15vh;
+    }
+    /*Auto Height Block*/
+    .block {
+        height: auto !important;
+    }
+    .auto {
+        height: 100%;
+        background-image: url(../Pics/leaders/Top-mod.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #529FDB;
+    }
+}
+
 /* ----------- iPhone X ----------- */
 
 /* Portrait */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
 
+/* Landscape */
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    .none-back {
+        background-image: none !important;
+    }
+    .none-mob {
+        display: none;
+    }
+    /*Background Parallax Fix*/
+    .index-mod,
+    .index-mod-bot,
+    .top-cc {
+        background-attachment: scroll !important;
+        background-position: 50% 50% !important;
+    }
+    /*Elements Appear*/
+    .add-mob {
+        display: unset;
+    }
+    .mob-fut-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 10vh;
+    }
+    .mob-cc-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 15vh;
+    }
+    /*Auto Height Block*/
+    .block {
+        height: auto !important;
+    }
+    .auto {
+        height: 100%;
+        background-image: url(../Pics/leaders/Top-mod.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #529FDB;
+    }
+}
 
 /* ----------- Galaxy S3 ----------- */
 
@@ -115,6 +306,51 @@ background-image:none;
 
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {}
 
+/* Landscape */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+    .none-back {
+        background-image: none !important;
+    }
+    .none-mob {
+        display: none;
+    }
+    /*Background Parallax Fix*/
+    .index-mod,
+    .index-mod-bot,
+    .top-cc {
+        background-attachment: scroll !important;
+        background-position: 50% 50% !important;
+    }
+    /*Elements Appear*/
+    .add-mob {
+        display: unset;
+    }
+    .mob-fut-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 10vh;
+    }
+    .mob-cc-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 15vh;
+    }
+    /*Auto Height Block*/
+    .block {
+        height: auto !important;
+    }
+    .auto {
+        height: 100%;
+        background-image: url(../Pics/leaders/Top-mod.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #529FDB;
+    }
+}
 
 /* ----------- Galaxy S4, S5 and Note 3 ----------- */
 
@@ -122,11 +358,103 @@ background-image:none;
 
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {}
 
+/* Landscape */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .none-back {
+        background-image: none !important;
+    }
+    .none-mob {
+        display: none;
+    }
+    /*Background Parallax Fix*/
+    .index-mod,
+    .index-mod-bot,
+    .top-cc {
+        background-attachment: scroll !important;
+        background-position: 50% 50% !important;
+    }
+    /*Elements Appear*/
+    .add-mob {
+        display: unset;
+    }
+    .mob-fut-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 10vh;
+    }
+    .mob-cc-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 15vh;
+    }
+    /*Auto Height Block*/
+    .block {
+        height: auto !important;
+    }
+    .auto {
+        height: 100%;
+        background-image: url(../Pics/leaders/Top-mod.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #529FDB;
+    }
+}
+
 /* ----------- Galaxy S6 ----------- */
 
 /* Portrait */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {}
+
+/* Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    .none-back {
+        background-image: none !important;
+    }
+    .none-mob {
+        display: none;
+    }
+    /*Background Parallax Fix*/
+    .index-mod,
+    .index-mod-bot,
+    .top-cc {
+        background-attachment: scroll !important;
+        background-position: 50% 50% !important;
+    }
+    /*Elements Appear*/
+    .add-mob {
+        display: unset;
+    }
+    .mob-fut-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 10vh;
+    }
+    .mob-cc-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 15vh;
+    }
+    /*Auto Height Block*/
+    .block {
+        height: auto !important;
+    }
+    .auto {
+        height: 100%;
+        background-image: url(../Pics/leaders/Top-mod.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #529FDB;
+    }
+}
 
 /* ----------- Google Pixel ----------- */
 
@@ -134,13 +462,103 @@ background-image:none;
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {}
 
+/* Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .none-back {
+        background-image: none !important;
+    }
+    .none-mob {
+        display: none;
+    }
+    /*Background Parallax Fix*/
+    .index-mod,
+    .index-mod-bot,
+    .top-cc {
+        background-attachment: scroll !important;
+        background-position: 50% 50% !important;
+    }
+    /*Elements Appear*/
+    .add-mob {
+        display: unset;
+    }
+    .mob-fut-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 10vh;
+    }
+    .mob-cc-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 15vh;
+    }
+    /*Auto Height Block*/
+    .block {
+        height: auto !important;
+    }
+    .auto {
+        height: 100%;
+        background-image: url(../Pics/leaders/Top-mod.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #529FDB;
+    }
+}
+
 /* ----------- Google Pixel XL ----------- */
 
 /* Portrait */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {}
 
+/* Landscape */
 
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    .none-back {
+        background-image: none !important;
+    }
+    .none-mob {
+        display: none;
+    }
+    /*Background Parallax Fix*/
+    .index-mod,
+    .index-mod-bot,
+    .top-cc {
+        background-attachment: scroll !important;
+        background-position: 50% 50% !important;
+    }
+    /*Elements Appear*/
+    .add-mob {
+        display: unset;
+    }
+    .mob-fut-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 10vh;
+    }
+    .mob-cc-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 15vh;
+    }
+    /*Auto Height Block*/
+    .block {
+        height: auto !important;
+    }
+    .auto {
+        height: 100%;
+        background-image: url(../Pics/leaders/Top-mod.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #529FDB;
+    }
+}
 
 /* ----------- HTC One ----------- */
 
@@ -148,8 +566,100 @@ background-image:none;
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {}
 
+/* Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .none-back {
+        background-image: none !important;
+    }
+    .none-mob {
+        display: none;
+    }
+    /*Background Parallax Fix*/
+    .index-mod,
+    .index-mod-bot,
+    .top-cc {
+        background-attachment: scroll !important;
+        background-position: 50% 50% !important;
+    }
+    /*Elements Appear*/
+    .add-mob {
+        display: unset;
+    }
+    .mob-fut-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 10vh;
+    }
+    .mob-cc-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 15vh;
+    }
+    /*Auto Height Block*/
+    .block {
+        height: auto !important;
+    }
+    .auto {
+        height: 100%;
+        background-image: url(../Pics/leaders/Top-mod.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #529FDB;
+    }
+}
+
 /* ----------- Windows Phone ----------- */
 
 /* Portrait */
 
 @media screen and (device-width: 480px) and (device-height: 800px) and (orientation: portrait) {}
+
+/* Landscape */
+
+@media screen and (device-width: 480px) and (device-height: 800px) and (orientation: landscape) {
+    .none-back {
+        background-image: none !important;
+    }
+    .none-mob {
+        display: none;
+    }
+    /*Background Parallax Fix*/
+    .index-mod,
+    .index-mod-bot,
+    .top-cc {
+        background-attachment: scroll !important;
+        background-position: 50% 50% !important;
+    }
+    /*Elements Appear*/
+    .add-mob {
+        display: unset;
+    }
+    .mob-fut-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 10vh;
+    }
+    .mob-cc-img {
+        height: 80vh;
+        margin: auto;
+        display: block;
+        margin-top: 15vh;
+    }
+    /*Auto Height Block*/
+    .block {
+        height: auto !important;
+    }
+    .auto {
+        height: 100%;
+        background-image: url(../Pics/leaders/Top-mod.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #529FDB;
+    }
+}
