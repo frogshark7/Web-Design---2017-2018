@@ -98,7 +98,7 @@
     </nav>
 
     <section class="cd-section visible auto" id="71">
-        <div class="block top-lead">
+        <div class="block top-lead none-back" id="remove">
 
             <div class="row white top-text">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 grey-mod comp-l">
@@ -111,10 +111,10 @@
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 grey-mod comp-r">
                     <span class="bold">Amazon Web Services (AWS)</span>
-                    <br>Amazon is a major leader in cloud computing. It has been in this business since 2002, when it started its cloud based service, AWS. Since then, it has created the first IaaS platform and has gone even further with its shopping website. Amazon also has created multiple IaaS and SaaS services such as Elastic Compute Cloud (EC2), Elastic Beanstalk, Simple Storage Service (S3), and Elastic Block Store (EBS). Its services even extend to cloud-based artificial intelligence, which they call Amazon Alexa.
+                    <br>Amazon is a major leader in cloud computing. It has been in this business since 2002, when it started its cloud based service, AWS. Since then, it has created the first IaaS platform and has gone even further with its shopping website. Amazon also has created multiple IaaS and SaaS services such as Elastic Compute Cloud (EC2), Elastic Beanstalk, Simple Storage Service (S3), and Elastic Block Store (EBS). Its services even extend to cloud-based artificial intelligence, called Amazon Alexa.
                 </div>
             </div>
-            <div class="row white top-text-bot">
+            <div class="row white top-text">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 grey-mod comp-l comp-bot">
                     <span class="bold">IBM Cloud</span>
                     <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
@@ -275,6 +275,18 @@
                     }
                 }
             });
+
+    </script>
+    <script>
+        $(window).on('resize', function() {
+            if ($(window).width() > 793) {
+                $('#remove').addClass('');
+                $('#remove').removeClass('block');
+            } else {
+                $('#remove').addClass('block');
+                $('#remove').removeClass('');
+            }
+        })
 
     </script>
 </body>

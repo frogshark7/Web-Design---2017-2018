@@ -91,25 +91,21 @@ html {
     margin-top: 50px;
 }
 
-.top-text-bot {
-    font-size: 2.5vh;
-    text-align: justify;
-    color: #fff;
-}
+
 
 .comp-bot {
     bottom: 0;
 }
 
 .comp-l {
+    position: absolute;
     width: 35%;
-    position: fixed;
     left: 0;
 }
 
 .comp-r {
     width: 35%;
-    position: fixed;
+    position: absolute;
     right: 0;
 }
 
@@ -163,7 +159,7 @@ html {
     background-image: url(../Pics/leaders/Top-mod.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 10% 50%;
+    background-position: 50% 50%;
     background-color: #529FDB;
     background-attachment: fixed;
 }

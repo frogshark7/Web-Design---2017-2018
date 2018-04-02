@@ -31,7 +31,7 @@ html {
     width: 98%;
     font-size: 3vh;
     display: block;
-    margin-left: 5vh;
+    margin-left:0vh;
 }
 
 .white {
@@ -165,7 +165,7 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 100%;
+    height: 650px;
     margin-top: 7vh;
     width: 90%;
 }

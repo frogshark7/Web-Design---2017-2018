@@ -20,8 +20,7 @@
     /*Background Parallax Fix*/
     .index-mod,
     .index-mod-bot,
-    .top-cc,
-    .top-lead {
+    .top-cc {
         background-attachment: scroll !important;
         background-position: 50% 50% !important;
     }
@@ -49,9 +48,13 @@
     .block {
         height: auto !important;
     }
+}
 
-    /*His Page Cloud*/
-    .top-image {
-        background-color: #fff;
-    }
+.auto {
+    height: 100%;
+    background-image: url(../Pics/leaders/Top-mod.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: #529FDB;
 }
