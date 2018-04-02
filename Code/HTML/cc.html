@@ -102,7 +102,7 @@
             </div>
         </div>
     </div>
-    <div class=" block-text " id="22 ">
+    <div class="block-text" id="22">
         <div>
             <p class="type-title foo-1 ">
                 <br>Types <br><span style="font-weight:100; font-size:2.5vh; display:block; ">(Click Topics for Info)</span>
@@ -145,7 +145,7 @@
         </div>
     </div>
 
-    <div class="block t-mod " id="23 ">
+    <div class="block t-mod" id="23">
         <p class="title-deploy foo-1 ">Deployments</p>
         <div class="row ">
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 "><img src="../Pics/cc/public-cloud.svg " class="img-public foo-1 "></div>
@@ -170,7 +170,7 @@
         </div>
     </div>
 
-    <div class="block-mod-bot bottom-appear blue-mod " id="24 ">
+    <div class="block-mod-bot bottom-appear blue-mod" id="24">
         <div class="row foo-1 ">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 row ">
                 <p class="title-last ">Uses</p>
@@ -245,10 +245,10 @@
     </script>
     <script>
         // Select all links with hashes
-        $('a[href*="# "]')
+        $('a[href*="#"]')
             // Remove links that don't actually link to anything
-            .not('[href="# "]')
-            .not('[href="#0 "]')
+            .not('[href="#"]')
+            .not('[href="#0"]')
             .click(function(event) {
                 // On-page links
                 if (
@@ -269,7 +269,7 @@
                             // Must change focus!
                             var $target = $(target);
                             $target.focus();
-                            if ($target.is(":focus ")) { // Checking if the target was focused
+                            if ($target.is(":focus")) { // Checking if the target was focused
                                 return false;
                             } else {
                                 $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable

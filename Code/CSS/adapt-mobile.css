@@ -1,8 +1,12 @@
+/*Landscape*/
+
 /*Universal*/
 
 .add-mob {
     display: none;
 }
+
+/*Background Parallax Fix*/
 
 @media only screen and (max-device-width: 793px) {
     .none-back {
@@ -12,11 +16,7 @@
     .none-mob {
         display: none;
     }
-}
 
-/*Background Parallax Fix*/
-
-@media only screen and (max-device-width: 793px) {
     /*Background Parallax Fix*/
     .index-mod,
     .index-mod-bot,
@@ -48,13 +48,15 @@
     .block {
         height: auto !important;
     }
+
+    .auto {
+        height: 100%;
+        background-image: url(../Pics/leaders/Top-mod.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #529FDB;
+    }
 }
 
-.auto {
-    height: 100%;
-    background-image: url(../Pics/leaders/Top-mod.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-color: #529FDB;
-}
+/*Portrait*/
