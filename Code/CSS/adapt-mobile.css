@@ -154,6 +154,40 @@
     figure > img {
         margin-top: 1vh !important;
     }
+    /*CC*/
+    #top-cc {
+        font-size: 1.2vh;
+        padding-right: 1vh;
+    }
+
+    .title-cc-por {
+        margin-top: 10vh;
+        font-size: 2.5vh;
+    }
+
+    .cc-add-img-top {
+        margin-top: 2vh;
+        height: 29vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .type-title {
+        font-size: 2.5vh;
+    }
+    .types-add {
+        font-size: 1.5vh;
+    }
+    .cc-img-add-mid {
+        margin-top: -12vh;
+    }
+    .text-mid-cc {
+        font-size: 1.5vh;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
 
 /* Landscape */
