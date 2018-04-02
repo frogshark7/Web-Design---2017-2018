@@ -173,7 +173,7 @@
         margin-right: auto;
     }
     .type-title {
-        font-size: 2.5vh;
+        font-size: 3vh;
     }
     .types-add {
         font-size: 1.5vh;
@@ -187,6 +187,9 @@
         margin-left: auto;
         margin-right: auto;
         display: block;
+    }
+    .title-por {
+        font-size: 3vh;
     }
 }
 
