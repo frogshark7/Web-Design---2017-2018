@@ -40,25 +40,10 @@ html {
 .img-text {
     float: right;
     text-align: justify;
-    margin: 50vh 5% 25% 0;
+    margin: 20vh 5% 0 0;
     max-width: 40%;
-    max-height: 75%;
     position: relative;
     display: block;
-    transform: translateY(-50%);
-    font-size: 4vh;
-    color: #000;
-}
-
-.img-text2 {
-    float: right;
-    text-align: justify;
-    margin: 50vh 5% 25% 0;
-    max-width: 40%;
-    max-height: 75%;
-    position: relative;
-    display: block;
-    transform: translateY(-50%);
     font-size: 4vh;
     color: #000;
 }
@@ -136,13 +121,6 @@ html {
     background-size: cover;
     background-position: 50% 37%;
     background-attachment: fixed;
-}
-
-@media (max-width:793px) {
-    .index-mod,
-    .index-mod-bot {
-        background-attachment: scroll !important;
-    }
 }
 
 /*Slideshow Images*/

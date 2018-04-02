@@ -22,7 +22,6 @@ body {
     font-weight: bold;
     font-size: 7vh;
     margin-right: 5vh;
-    margin-top: 80px;
 }
 
 .type-title {
@@ -51,9 +50,10 @@ body {
     text-align: justify;
     font-size: 4vh;
     color: #fff;
-    margin-right: 5vh;
+    padding-right: 5vh;
     position: relative;
     display: block;
+    margin-top: 80px;
 }
 
 .image-stuck {
@@ -216,18 +216,12 @@ body {
     display: block;
 }
 
-.top {
+.top-cc {
     background-image: url(../Pics/cc/cloud_net-cc.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% -10%;
+    background-position: 50% 0%;
     background-attachment: fixed;
-}
-
-@media (max-width:793px) {
-    .top {
-        background-attachment: scroll !important;
-    }
 }
 
 ul {
@@ -267,11 +261,4 @@ ul {
     width: 18vh;
     float: right;
     margin-right: 1vh;
-}
-
-
-@media (max-width:793px) {
-    .top {
-        background-attachment: none;
-    }
 }

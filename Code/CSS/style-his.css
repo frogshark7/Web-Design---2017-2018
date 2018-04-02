@@ -167,7 +167,7 @@ html {
     margin-right: auto;
     height: 100%;
     margin-top: 7vh;
-    width: 1200px;
+    width: 90%;
 }
 
 /*1st Module Filler*/
@@ -183,5 +183,3 @@ html {
     margin-top: 2vh;
 
 }
-
-@media (min-height: 814px) {}

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../CSS/cdnbootstrap.css">
     <link rel="stylesheet" href="../CSS/style-fut.css">
     <link rel="stylesheet" href="../CSS/Universal.css">
+    <link rel="stylesheet" href="../CSS/adapt-mobile.css">
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
@@ -24,8 +26,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="../Icon/ofavcon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="../Icon/ofavcon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="../Icon/ofavcon.ico">
-    <link rel="manifest" href="../Icon/ofavcon.ico">
-    <link rel="mask-icon" href="../Icon/ofavcon.ico" color="#5bbad5">
+    <link rel="manifest" href="../Icon/ofavicon.ico">
+    <link rel="mask-icon" href="../Icon/ofavicon.ico" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 </head>
@@ -40,7 +42,7 @@
                <span class="icon-bar"></span> 
                </button>
                 <a class="navbar-brand nav-home-cloud" href="index.html">
-                    <div><img id="nav-home" align="top" src="../Icon/ofavcon.svg" height="57em" alt="cloud with gear"></div>
+                    <div><img id="nav-home" align="top" src="../Icon/ofavcon.svg" height="55em" alt="cloud with gear"></div>
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar highlight">
@@ -94,7 +96,7 @@
             </div>
         </div>
     </nav>
-    <div class="block-mod-bot top" id="61">
+    <div class="block-mod-bot" id="61">
         <p class="title">
             Trends<br><span style="font-weight:100; font-size:2.5vh; display:block;" class="">(Click Topics for Graph)</span>
         </p>
@@ -136,11 +138,12 @@
         </div>
     </div>
 
-    <div class="block blue-mod mid" id="62">
+    <div class="block blue-mod mid none-back" id="62">
         <div class="row m-right">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-7">
+            <div class="col-xs-7 col-sm-6 col-md-6 col-lg-6 col-xl-7">
+                <img src="../Pics/fut/Graph.svg" class="add-mob mob-fut-img">
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-5 black">
+            <div class="col-xs-5 col-sm-6 col-md-6 col-lg-6 col-xl-5 black">
                 <p class="mid-title">Market Growth</p>
                 <p class="mid-text">
                     The Market Revenue in 2017 globally was about $180 billion. This number is growing at an annual rate of about 24% total. Iaas (Infrastructure as a service) and Paas (Platform as a service) are by far the fastest growing because of their popularity by Amazon and Microsoft, at 47% annual growth. Then, with a 31% growth rate, Microsoft and Salesforce lead the Saas (Software as a service) part of cloud computing. UCaas (Unified Communications as a service) has around a 20% growth rate along with surprisingly the private and public cloud. Iaas is growing really fast, and there are a few reasons why. First, Iaas is ready and available. Companies can quickly and easily rent out something on the cloud rather than buying a machine and then setting it up and replacing it. Best of all, Iaas has very low maintenance. Iaas is becoming more and more appealing. Paas is popular because lots of us are using internet-connected platforms like social media and video games. A lot of our lives are online, and Paas is growing with us. More about this <a class="link-blue-black" href="uses.html">here</a>.
@@ -232,8 +235,8 @@
     </script>
     <script src="../JS/parallax.js"></script>
     <script>
-		var $myGroup = $('#myGroup');
-		$myGroup.find('.collapse').collapse('true');
+        var $myGroup = $('#myGroup');
+        $myGroup.find('.collapse').collapse('true');
         $myGroup.on('show.bs.collapse', '.collapse', function() {
             $myGroup.find('.collapse.show').collapse('hide');
         });

@@ -98,7 +98,7 @@ a.link-blue-black:visited {
     text-decoration: underline;
 }
 
-.link-blue-white:visited {
+a.link-blue-white:visited {
     color: #434343;
 }
 
@@ -110,7 +110,24 @@ a.link-blue-black:visited {
     color: #000;
 }
 
-/*Black on Blue*/
+/*Black on White*/
+
+.link-white-black:link {
+    color: #529FDB;
+    text-decoration: underline;
+}
+
+a.link-white-black:visited {
+    color: #434343;
+}
+
+.link-white-black:hover {
+    color: #000;
+}
+
+.link-white-black:active {
+    color: #529FDB;
+}
 
 /* Dropdown Content (Hidden by Default) */
 
@@ -179,14 +196,4 @@ a.link-blue-black:visited {
 
 .white-mod {
     background-color: #fff;
-}
-
-@media (max-width:793px) {
-    .block {
-        height: auto !important;
-    }
-    .index-mod,
-    .index-mod-bot {
-        background-attachment: none;
-    }
 }
