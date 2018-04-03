@@ -1310,8 +1310,7 @@
         font-size: 3vh !important;
     }
     .por-bot-img {
-        height: 10vh;
-        width: auto;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         display: block;

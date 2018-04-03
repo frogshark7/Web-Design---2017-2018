@@ -80,6 +80,7 @@ html {
 
 .collapse-info {
     font-size: 3vh;
+    text-align: justify
 }
 
 .mid-text {
@@ -120,7 +121,7 @@ html {
 
 .img-collapse {
     margin-top: -50vh;
-    height: auto;
+    height: 10vh;
 }
 
 .mark-img {
