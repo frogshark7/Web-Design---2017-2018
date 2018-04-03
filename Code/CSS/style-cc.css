@@ -235,7 +235,7 @@ ul {
 }
 
 .items {
-    font-size: 2.5vh;
+    font-size: 3vh;
     color: #fff;
     text-align: justify;
 }
@@ -251,13 +251,13 @@ ul {
 /*Uses IMG*/
 
 .uses-img-left {
-    width: 18vh;
+    height:20vh;
     float: left;
     margin-left: 1vh;
 }
 
 .uses-img-right {
-    width: 18vh;
+    height:20vh;
     float: right;
     margin-right: 1vh;
 }
