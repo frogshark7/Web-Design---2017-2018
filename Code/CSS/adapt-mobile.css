@@ -20,6 +20,9 @@
 /* Landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .title-mid {
+        margin-top: 0 !important;
+    }
     .none-back {
         background-image: none !important;
     }
@@ -72,6 +75,9 @@
 /* Landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .title-mid {
+        margin-top: 0 !important;
+    }
     .none-back {
         background-image: none !important;
     }
@@ -199,10 +205,12 @@
     }
     .por-bot-img {
         height: 10vh;
+        width: auto;
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
+
     /*Uses*/
     .uses-por-text {
         font-size: 1vh !important;
@@ -256,7 +264,7 @@
         margin-right: auto;
     }
     .mark-por-text {
-        font-size: 1vh;
+        font-size: 1vh !important;
     }
     .graph-por-img {
         margin-top: 8vh;
@@ -265,11 +273,24 @@
     .por-bot-img {
         width: 100%;
     }
+    /*Leader*/
+    .auto {
+        height: auto !important;
+    }
+    .interview-title {
+        font-size: 2vh;
+    }
+    .title-trans {
+        font-size: 1.4vh;
+    }
 }
 
 /* Landscape */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .title-mid {
+        margin-top: 0 !important;
+    }
     .none-back {
         background-image: none !important;
     }
@@ -322,6 +343,9 @@
 /* Landscape */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    .title-mid {
+        margin-top: 0 !important;
+    }
     .none-back {
         background-image: none !important;
     }
@@ -374,6 +398,9 @@
 /* Landscape */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    .title-mid {
+        margin-top: 0 !important;
+    }
     .none-back {
         background-image: none !important;
     }
@@ -426,6 +453,9 @@
 /* Landscape */
 
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+    .title-mid {
+        margin-top: 0 !important;
+    }
     .none-back {
         background-image: none !important;
     }
@@ -478,6 +508,9 @@
 /* Landscape */
 
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .title-mid {
+        margin-top: 0 !important;
+    }
     .none-back {
         background-image: none !important;
     }
@@ -530,6 +563,9 @@
 /* Landscape */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    .title-mid {
+        margin-top: 0 !important;
+    }
     .none-back {
         background-image: none !important;
     }
@@ -582,6 +618,9 @@
 /* Landscape */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .title-mid {
+        margin-top: 0 !important;
+    }
     .none-back {
         background-image: none !important;
     }
@@ -634,6 +673,9 @@
 /* Landscape */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    .title-mid {
+        margin-top: 0 !important;
+    }
     .none-back {
         background-image: none !important;
     }
@@ -686,6 +728,9 @@
 /* Landscape */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .title-mid {
+        margin-top: 0 !important;
+    }
     .none-back {
         background-image: none !important;
     }
@@ -738,6 +783,9 @@
 /* Landscape */
 
 @media screen and (device-width: 480px) and (device-height: 800px) and (orientation: landscape) {
+    .title-mid {
+        margin-top: 0 !important;
+    }
     .none-back {
         background-image: none !important;
     }
