@@ -431,6 +431,11 @@
         width: 100%;
     }
 
+    .timeline {
+        height: 650px !important;
+
+    }
+
     .add-por {
         display: unset;
     }
