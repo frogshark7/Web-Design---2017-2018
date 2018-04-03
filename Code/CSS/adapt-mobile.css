@@ -261,6 +261,10 @@
     .graph-por-img {
         margin-top: 8vh;
     }
+
+    .por-bot-img {
+        width: 100%;
+    }
 }
 
 /* Landscape */
