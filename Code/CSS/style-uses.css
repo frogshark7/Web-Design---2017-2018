@@ -115,6 +115,7 @@ div.grey-mod > p {
 
 .ad-text {
     font-size: 3vh;
+    text-align:justify;
 }
 
 @media (min-height: 770px) {
