@@ -79,7 +79,7 @@ html {
 }
 
 .collapse-info {
-    font-size: 3.2vh;
+    font-size: 3.3vh;
     text-align: justify
 }
 
@@ -120,8 +120,7 @@ html {
 /*Images*/
 
 .img-collapse {
-    margin-top: -50vh;
-    height: 10vh;
+    margin-top: -40vh;
 }
 
 .mark-img {
@@ -237,4 +236,51 @@ html {
         margin-bottom: 5px;
     }
 
+}
+
+/*Img-Overlay*/
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    display: block;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 1);
+    overflow-y: hidden;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: transparent;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: transparent;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 60px;
+    color: #529FDB;
 }
