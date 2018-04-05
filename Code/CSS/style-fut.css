@@ -103,14 +103,6 @@ html {
 
 /*MOD*/
 
-.mid {
-    background-image: url(../Pics/fut/Graph.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 50%;
-    background-attachment: fixed;
-}
-
 @media (min-width:1500px) {
     .block {
         height: auto !important;
