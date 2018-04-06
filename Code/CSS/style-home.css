@@ -46,7 +46,7 @@ html {
 .img-text {
     float: right;
     text-align: justify;
-    margin: 10% 5% 0 0;
+    margin: 100px 5% 0 100px;
     max-width: 40%;
     position: relative;
     display: block;
@@ -155,6 +155,6 @@ figure > img:nth-child(4) {
 
 @media (min-height:800px) {
     figure > img:nth-child(4) {
-        margin-top: -16vh;
+        margin-top: 0vh;
     }
 }
