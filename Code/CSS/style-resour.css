@@ -1,9 +1,5 @@
-body {
-    background-color: #529FDB;
-}
-
 .resources {
-    margin-top: 10vh;
+    padding-top: 10vh;
     height: 100%;
 }
 
@@ -20,7 +16,7 @@ body {
 .res-bar {
     background-color: #529FDB;
     margin-top: 2vh;
-    font-size: 4vh;
+    font-size: 3vh;
     text-align: center;
     margin-bottom: 2vh;
     width: 100%;
@@ -28,22 +24,6 @@ body {
 
 .res-bar:hover {
     background-color: #fff;
-    width: 9s0%;
-}
-
-.collapse-link {
-    font-size: 4vh;
-    color: #000;
-}
-
-.collapse-info {
-    font-family: serif;
-    text-align: left;
-    font-size: 2.5vh;
-    text-align: center;
-    background-color: #fff;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 footer {

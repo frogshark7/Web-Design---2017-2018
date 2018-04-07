@@ -75,7 +75,7 @@ nav-home {
 
 /*Black on Blue*/
 
-.link-blue-black:link {
+a.link-blue-black:link {
     color: #fff;
     text-decoration: underline;
 }
@@ -84,17 +84,17 @@ a.link-blue-black:visited {
     color: #434343;
 }
 
-.link-blue-black:hover {
+a.link-blue-black:hover {
     color: #000;
 }
 
-.link-blue-black:active {
+a.link-blue-black:active {
     color: #fff;
 }
 
 /*White on Blue*/
 
-.link-blue-white:link {
+a.link-blue-white:link {
     color: #000;
     text-decoration: underline;
 }
@@ -103,17 +103,17 @@ a.link-blue-white:visited {
     color: #434343;
 }
 
-.link-blue-white:hover {
+a.link-blue-white:hover {
     color: #fff;
 }
 
-.link-blue-white:active {
+a.link-blue-white:active {
     color: #000;
 }
 
 /*Black on White*/
 
-.link-white-black:link {
+a.link-white-black:link {
     color: #529FDB;
     text-decoration: underline;
 }
@@ -122,11 +122,30 @@ a.link-white-black:visited {
     color: #434343;
 }
 
-.link-white-black:hover {
+a.link-white-black:hover {
     color: #000;
 }
 
-.link-white-black:active {
+a.link-white-black:active {
+    color: #529FDB;
+}
+
+/*White on Grey*/
+
+a.link-grey-white:link {
+    color: #529FDB;
+    text-decoration: underline;
+}
+
+a.link-grey-white:visited {
+    color: #fff;
+}
+
+a.link-grey-white:hover {
+    color: #fff;
+}
+
+a.link-grey-white:active {
     color: #529FDB;
 }
 
