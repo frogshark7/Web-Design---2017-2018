@@ -161,6 +161,6 @@ figure > img:nth-child(4) {
 
 @media (min-height:800px) {
     figure > img:nth-child(4) {
-        margin-top: -1vh;
+        margin-top: -2vh;
     }
 }
