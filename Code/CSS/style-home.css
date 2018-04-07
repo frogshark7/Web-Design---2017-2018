@@ -32,13 +32,7 @@ html {
     z-index: -1;
     position: absolute;
     top: 0;
-    pointer-events: none;
-    width: 90%;
-    padding: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
+    pointer-events: none
 }
 
 /* TEXT START*/
@@ -46,7 +40,7 @@ html {
 .img-text {
     float: right;
     text-align: justify;
-    margin: 100px 5% 0 100px;
+    margin: 20vh 5% 0 0;
     max-width: 40%;
     position: relative;
     display: block;
@@ -106,16 +100,28 @@ html {
     margin: 0;
     right: 0;
     animation: 20s slider infinite;
-    z-index: 1000;
 }
 
 .blue-back {
     background-color: #529FDB;
 }
 
+.index-mod {
+    background-image: url(../Pics/index/internet.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+    background-attachment: fixed;
+    background-color: #529FDB;
+}
 
-
-
+.index-mod-bot {
+    background-image: url(../Pics/index/Cloud.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 37%;
+    background-attachment: fixed;
+}
 
 /*Slideshow Images*/
 
@@ -132,7 +138,7 @@ figure > img:nth-child(3) {
 }
 
 figure > img:nth-child(4) {
-    margin-top: -15vh;
+    margin-top: -11vh;
 }
 
 @media (min-height:800px) {
@@ -155,6 +161,6 @@ figure > img:nth-child(4) {
 
 @media (min-height:800px) {
     figure > img:nth-child(4) {
-        margin-top: 0vh;
+        margin-top: 1vh;
     }
 }

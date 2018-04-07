@@ -166,7 +166,7 @@ body {
     background-image: url(../Pics/cc/cc-deploy.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% -270px;
+    background-position: 50% 80%;
 }
 
 .title-deploy {
@@ -251,13 +251,13 @@ ul {
 /*Uses IMG*/
 
 .uses-img-left {
-    height:20vh;
+    height: 20vh;
     float: left;
     margin-left: 1vh;
 }
 
 .uses-img-right {
-    height:20vh;
+    height: 20vh;
     float: right;
     margin-right: 1vh;
 }
