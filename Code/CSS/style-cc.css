@@ -160,11 +160,10 @@ body {
 }
 
 .t-mod {
-    background-color: #434343;
     background-image: url(../Pics/cc/cc-deploy.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 80%;
+    background-position: 50% 0%;
 }
 
 .title-deploy {
@@ -260,4 +259,11 @@ ul {
     height: 20vh;
     float: right;
     margin-right: 1vh;
+}
+
+.placeh {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background-color: #fff;
 }
