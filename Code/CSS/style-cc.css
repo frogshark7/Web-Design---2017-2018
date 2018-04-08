@@ -179,20 +179,20 @@ body {
     color: #fff;
     background-color: #529FDB;
     padding: 2vh;
-    font-size: 2.3vh;
-    margin-top: 18%;
+    font-size: 2.8vh;
+    margin-top: 20%;
 }
 
 .cloud-side {
     color: #fff;
     background-color: #529FDB;
     padding: 2vh;
-    font-size: 2.3vh;
-    margin-top: 2%;
+    font-size: 2.8vh;
+    margin-top: 5%;
 }
 
 .img-public {
-    margin-top: 35vh;
+    margin-top: 45vh;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -200,7 +200,7 @@ body {
 }
 
 .img-private {
-    margin-top: 35vh;
+    margin-top: 45vh;
     margin-left: auto;
     margin-right: auto;
     display: block;
