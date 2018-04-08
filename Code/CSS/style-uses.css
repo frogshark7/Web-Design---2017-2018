@@ -139,10 +139,9 @@ div.grey-mod > p {
 }
 
 .top-img-via {
-    margin-top: 60px;
-    padding-right: 100vh;
+    margin-top: 10vh;
+    margin-right: 100vh;
     height: 90%;
-    width: 90%;
     position: fixed;
 }
 
