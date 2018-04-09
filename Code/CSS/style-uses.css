@@ -136,13 +136,14 @@ div.grey-mod > p {
     margin: auto;
     display: block;
     width: 100%;
+    margin-top: 20%;
 }
 
 .top-img-via {
-    margin-top: 10vh;
-    margin-right: 100vh;
-    height: 90%;
-    position: fixed;
+    margin-top: 80px;
+    height: 90vh;
+    width: 100%;
 }
+
 
 /*MOD*/

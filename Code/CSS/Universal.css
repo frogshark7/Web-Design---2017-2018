@@ -154,7 +154,7 @@ a.link-grey-white:active {
     display: none;
     position: absolute;
     background-color: #fff;
-    min-width: 107px;
+    min-width: 50%;
     z-index: 1;
     color: #000;
 }
