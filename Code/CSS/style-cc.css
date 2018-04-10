@@ -80,7 +80,6 @@ body {
     padding-right: 2vh;
 }
 
-.text-body_right {}
 
 .text-body {
     font-size: 4vh;
@@ -164,6 +163,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 0%;
+    z-index: 1000;
 }
 
 .title-deploy {
@@ -180,6 +180,8 @@ body {
     padding: 2vh;
     font-size: 2.8vh;
     margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cloud-side {
@@ -187,7 +189,6 @@ body {
     background-color: #529FDB;
     padding: 2vh;
     font-size: 2.8vh;
-    margin-top: 5%;
 }
 
 .img-public {
