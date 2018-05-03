@@ -177,6 +177,9 @@
 /* Landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .index-add-img {
+        margin-top: 5vh !important;
+    }
     .timeline {
         width: 100%;
     }
@@ -395,6 +398,9 @@
 /* Landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .index-add-img {
+        margin-top: 5vh !important;
+    }
     .timeline {
         width: 100%;
     }
@@ -617,57 +623,70 @@
 
 /* Landscape */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-    .timeline {
-        width: 100%;
-    }
-    .cc-mob-img {
-        position: relative !important;
-    }
-    .title-mid {
-        margin-top: 0 !important;
-    }
-    .none-back {
-        background-image: none !important;
-    }
-    .none-mob {
-        display: none;
-    }
-    /*Background Parallax Fix*/
-    .index-mod,
-    .index-mod-bot,
-    .top-cc {
-        background-attachment: scroll !important;
-        background-position: 50% 50% !important;
-    }
-    /*Elements Appear*/
-    .add-mob {
-        display: unset;
-    }
-    .mob-fut-img {
-        height: 80vh;
-        margin: auto;
-        display: block;
-        margin-top: 10vh;
-    }
-    .mob-cc-img {
-        height: 80vh;
-        margin: auto;
-        display: block;
-        margin-top: 15vh;
-    }
-    /*Auto Height Block*/
-    .block {
-        height: auto !important;
-    }
-    .auto {
-        height: 100%;
-        background-image: url(../Pics/leaders/Top-mod.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50% 50%;
-        background-color: #529FDB;
-    }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: .timeline {
+    width: 100%;
+}
+
+.cc-mob-img {
+    position: relative !important;
+}
+
+.title-mid {
+    margin-top: 0 !important;
+}
+
+.none-back {
+    background-image: none !important;
+}
+
+.none-mob {
+    display: none;
+}
+
+/*Background Parallax Fix*/
+
+.index-mod,
+.index-mod-bot,
+.top-cc {
+    background-attachment: scroll !important;
+    background-position: 50% 50% !important;
+}
+
+/*Elements Appear*/
+
+.add-mob {
+    display: unset;
+}
+
+.mob-fut-img {
+    height: 80vh;
+    margin: auto;
+    display: block;
+    margin-top: 10vh;
+}
+
+.mob-cc-img {
+    height: 80vh;
+    margin: auto;
+    display: block;
+    margin-top: 15vh;
+}
+
+/*Auto Height Block*/
+
+.block {
+    height: auto !important;
+}
+
+.auto {
+    height: 100%;
+    background-image: url(../Pics/leaders/Top-mod.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: #529FDB;
+}
+
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
@@ -836,6 +855,9 @@
 /* Landscape */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    .index-add-img {
+        margin-top: 5vh !important;
+    }
     .timeline {
         width: 100%;
     }
@@ -1054,6 +1076,9 @@
 /* Landscape */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    .index-add-img {
+        margin-top: 5vh !important;
+    }
     .timeline {
         width: 100%;
     }
@@ -1272,6 +1297,9 @@
 /* Landscape */
 
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+    .index-add-img {
+        margin-top: 5vh !important;
+    }
     .timeline {
         width: 100%;
     }
@@ -1489,6 +1517,9 @@
 /* Landscape */
 
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .index-add-img {
+        margin-top: 5vh !important;
+    }
     .timeline {
         width: 100%;
     }
@@ -1707,6 +1738,9 @@
 /* Landscape */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    .index-add-img {
+        margin-top: 5vh !important;
+    }
     .timeline {
         width: 100%;
     }
@@ -1925,6 +1959,9 @@
 /* Landscape */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .index-add-img {
+        margin-top: 5vh !important;
+    }
     .timeline {
         width: 100%;
     }
@@ -2143,6 +2180,9 @@
 /* Landscape */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    .index-add-img {
+        margin-top: 5vh !important;
+    }
     .timeline {
         width: 100%;
     }
@@ -2361,6 +2401,9 @@
 /* Landscape */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .index-add-img {
+        margin-top: 5vh !important;
+    }
     .timeline {
         width: 100%;
     }
@@ -2579,6 +2622,9 @@
 /* Landscape */
 
 @media screen and (device-width: 480px) and (device-height: 800px) and (orientation: landscape) {
+    .index-add-img {
+        margin-top: 5vh !important;
+    }
     .timeline {
         width: 100%;
     }
