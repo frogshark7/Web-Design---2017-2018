@@ -253,6 +253,7 @@
         $myGroup.on('show.bs.collapse', '.collapse', function() {
             $myGroup.find('.collapse.show').collapse('hide');
         });
+
     </script>
     <script src="../JS/jquery-2.1.4.js"></script>
     <script src="../JS/velocity.min.js"></script>
@@ -261,11 +262,12 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script>
         window.sr = ScrollReveal({
-            reset: true
+            reset: false
         });
         sr.reveal('.foo-1', {
             viewFactor: 0.5
         });
+
     </script>
     <script>
         // Select all links with hashes
@@ -303,6 +305,7 @@
                     }
                 }
             });
+
     </script>
 </body>
 
