@@ -71,7 +71,7 @@ body {
     position: relative;
     font-weight: bold;
     font-size: 4vh;
-    margin-top: 10vh;
+    margin-top: 0;
     text-align: justify;
     background-color: #fff;
 }
@@ -134,7 +134,7 @@ body {
     position: relative;
     font-weight: bold;
     font-size: 4vh;
-    margin-top: 40vh;
+    margin-top: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -267,4 +267,11 @@ ul {
     width: 100%;
     display: block;
     background-color: #fff;
+}
+
+.typesimg {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
