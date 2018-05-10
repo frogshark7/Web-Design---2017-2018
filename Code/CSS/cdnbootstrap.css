@@ -5215,7 +5215,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
         overflow: visible!important
     }
     .navbar-collapse.in {
-        overflow-y: visible
+        overflow-y: auto
     }
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse,
@@ -5227,13 +5227,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-fixed-bottom .navbar-collapse,
 .navbar-fixed-top .navbar-collapse {
-    max-height: 340px
+    max-height: 640px
 }
 
 @media (max-device-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
-        max-height: 200px
+        max-height: 500px
     }
 }
 

@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta charset="utf-8">
     <!--FONT-->
     <link href="https://fonts.googleapis.com/css?family=Karma" rel="stylesheet">
@@ -40,70 +42,81 @@
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar highlight">
-                <ul class="nav navbar-nav navbar-right ">
+                <div class="none-por none-mob">
+                    <ul class="nav navbar-nav navbar-right ">
+                        <li class="dropdown"><a class="active dropdown-toggle" href="index.html">Home</a></li>
 
-                    <li><a class="active" href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle">Cloud Computing</a>
+                            <ul class="dropdown-menu dropdown-content white-border add-mod drop-menu menu-5">
+                                <li><a href="cc.html#21">Definition</a></li>
+                                <li><a href="cc.html#22">Types</a></li>
+                                <li><a href="cc.html#23">Deployments</a></li>
+                                <li><a href="cc.html#24">Uses</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="dropdown">
-                        <a class="dropdown-toggle">Cloud Computing</a>
-                        <ul class="dropdown-menu dropdown-content white-border add-mod drop-menu menu-5">
-                            <li><a href="cc.html#21">Definition</a></li>
-                            <li><a href="cc.html#22">Types</a></li>
-                            <li><a href="cc.html#23">Deployments</a></li>
-                            <li><a href="cc.html#24">Uses</a></li>
-                        </ul>
-                    </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle">Implications</a>
+                            <ul class="dropdown-menu dropdown-content white-border add-mod drop-menu menu-5">
+                                <li><a href="uses.html#31">Viability</a></li>
+                                <li><a href="uses.html#32">Users</a></li>
+                                <li><a href="uses.html#33">Advantages</a></li>
+                                <li><a href="uses.html#33">Disadvantages</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="dropdown">
-                        <a class="dropdown-toggle">Implications</a>
-                        <ul class="dropdown-menu dropdown-content white-border add-mod drop-menu menu-5">
-                            <li><a href="uses.html#31">Viability</a></li>
-                            <li><a href="uses.html#32">Users</a></li>
-                            <li><a href="uses.html#33">Advantages</a></li>
-                            <li><a href="uses.html#33">Disadvantages</a></li>
-                        </ul>
-                    </li>
+                        <li><a href="his.html">History</a></li>
 
-                    <li><a href="his.html">History</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle">Future</a>
+                            <ul class="dropdown-menu dropdown-content white-border add-mod drop-menu menu-5">
+                                <li><a href="fut.html#61">Trends</a></li>
+                                <li><a href="fut.html#62">Market Growth</a></li>
+                                <li><a href="fut.html#63">Predictions</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="dropdown">
-                        <a class="dropdown-toggle">Future</a>
-                        <ul class="dropdown-menu dropdown-content white-border add-mod drop-menu menu-5">
-                            <li><a href="fut.html#61">Trends</a></li>
-                            <li><a href="fut.html#62">Market Growth</a></li>
-                            <li><a href="fut.html#63">Predictions</a></li>
-                        </ul>
-                    </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle">Leaders</a>
+                            <ul class="dropdown-menu dropdown-content white-border add-mod drop-menu menu-5">
+                                <li><a href="leader.html#71">Companies</a></li>
+                                <li><a href="leader.html#72">Jobs and Careers</a></li>
+                                <li><a href="leader.html#73">Interviews</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="dropdown">
-                        <a class="dropdown-toggle">Leaders</a>
-                        <ul class="dropdown-menu dropdown-content white-border add-mod drop-menu menu-5">
-                            <li><a href="leader.html#71">Companies</a></li>
-                            <li><a href="leader.html#72">Jobs and Careers</a></li>
-                            <li><a href="leader.html#73">Interviews</a></li>
-                        </ul>
-                    </li>
+                        <li><a href="resour.html">Resources</a></li>
 
-                    <li><a href="resour.html">Resources</a></li>
+                        <li><a onclick="openNav()"><img src="http://marsweb.com.br/wp-content/uploads/2017/01/search-icon-png-14.png" height="20em" ></a></li>
 
-
-
-                    <li><a onclick="openNav()"><img src="http://marsweb.com.br/wp-content/uploads/2017/01/search-icon-png-14.png" height="20em" ></a></li>
-
-                    <div id="myNav" class="overlay">
-                        <a href="javascript:void(0)" class="closebtnNav" onclick="closeNav()">&times;</a>
-                        <div>
-                            <a href="#"></a>
-                            <img src="../Pics/White.svg" width="100%">
+                        <div id="myNav" class="overlay">
+                            <a href="javascript:void(0)" class="closebtnNav" onclick="closeNav()">&times;</a>
+                            <div>
+                                <a href="#"></a>
+                                <img src="../Pics/White.svg" width="100%">
+                            </div>
                         </div>
-                    </div>
-                </ul>
+                    </ul>
+                </div>
+
+                <div class="add-por add-mob">
+                    <ul class="nav navbar-nav navbar-right ">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" href="cc.html">Cloud Computing</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" href="uses.html">Implications</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" href="his.html">History</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" href="fut.html">Future</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" href="leader.html">Leaders</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" href="resour.html">Resources</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
     <!-- Nav End -->
     <!--Slidshow START-->
-    <div id="slideshow">
+    <div id="slideshow" class="marign-slide">
         <div id="slider">
             <figure>
                 <img class="slider-image" src="../Pics/index/Slide-1.svg" height="100%">
@@ -127,7 +140,7 @@
                 </p>
             </div>
             <div class="add-por por-text-uni" style="margin-top: 2vh;">
-                <p style="text-align: justify; padding-right: 25px; padding-top: 1vh;">
+                <p style="text-align: justify; padding-right: 25px; padding-top: 0vh;">
                     <br> The internet is like a neighborhood. When you want to get something, you go to the local grocery store or supermarket to get it. This is the basis of <a class="link-blue-black" href="cc.html">cloud computing</a>. Cloud computing is <a class="link-blue-black" href="cc.html#24">used</a> for things like file storage, data analytics, disaster recovery, backup storage, communication, and so much more. For <a class="link-blue-black" href="uses.html#32">companies</a>, it has served as an efficient substitute to IT services and hardware.
                 </p>
             </div>
@@ -145,8 +158,8 @@
                 </p>
             </div>
 
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 add-por por-text-uni">
-                <p style="text-align: justify; padding-right: 25px; padding-top: 5vh;">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 add-por">
+                <p style="text-align: justify; padding-right: 25px; padding-top: -2vh; font-size:.8vh;">
                     Cloud computing services are delivered in one of the three ways that determine their accessibility and security. You can <a class="link-white-black " href="cc.html#23 ">deploy</a> services in a public, private, or hybrid system. There, three main <a class="link-white-black " href="cc.html#22 ">types</a> of cloud computing services are available: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
                 </p>
             </div>
