@@ -230,8 +230,6 @@ html {
 
 }
 
-
-
 .overlay-content {
     position: relative;
     top: 25%;
@@ -251,7 +249,7 @@ html {
 
 .overlay a:hover,
 .overlay a:focus {
-    color: transparent;
+    color: #434343;
 }
 
 .overlay .closebtn {
