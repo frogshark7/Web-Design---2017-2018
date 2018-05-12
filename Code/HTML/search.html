@@ -88,13 +88,24 @@
 
                         <li><a href="resour.html">Resources</a></li>
 
-                        <li><a onclick="openNav()" class="active"><img src="http://marsweb.com.br/wp-content/uploads/2017/01/search-icon-png-14.png" height="20em" ></a></li>
+                        <li><a onclick="openNav()"><img src="http://marsweb.com.br/wp-content/uploads/2017/01/search-icon-png-14.png" height="20em" ></a></li>
 
                         <div id="myNav" class="overlay">
                             <a href="javascript:void(0)" class="closebtnNav" onclick="closeNav()">&times;</a>
-                            <div>
-                                <a href="#"></a>
-                                <img src="../Pics/White.svg" width="100%">
+                            <div style="width:95%; margin-left:5px;">
+                                <script>
+                                    (function() {
+                                        var cx = '000156610173958638263:ldi11wyxh9c';
+                                        var gcse = document.createElement('script');
+                                        gcse.type = 'text/javascript';
+                                        gcse.async = true;
+                                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                                        var s = document.getElementsByTagName('script')[0];
+                                        s.parentNode.insertBefore(gcse, s);
+                                    })();
+
+                                </script>
+                                <gcse:searchbox-only style="height:50px;" resultsUrl="https://siconat.com/cloud-computing/HTML/search.html" enableAutoComplete="true"></gcse:searchbox-only>
                             </div>
                         </div>
                     </ul>
@@ -130,6 +141,19 @@
         </script>
         <gcse:searchresults-only></gcse:searchresults-only>
     </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "50px";
+            document.getElementById("no-overflow").style.overflow = "hidden";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0px";
+            document.getElementById("no-overflow").style.overflow = "auto";
+        }
+
+    </script>
 </body>
 
 </html>
