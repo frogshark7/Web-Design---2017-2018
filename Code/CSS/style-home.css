@@ -84,7 +84,7 @@ html {
 #slider {
     overflow: hidden;
     border-bottom: 0px solid transparent;
-    height: calc(100vh - 50px);
+    height: auto;
     background-color: #529FDB;
 }
 
