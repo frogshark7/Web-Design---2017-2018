@@ -241,6 +241,60 @@
         }
 
     </script>
+    <!--script>
+        (function() {
+            try {
+                var $_console$$ = console;
+                Object.defineProperty(window, "console", {
+                    get: function() {
+                        if ($_console$$._commandLineAPI)
+                            throw "";
+                        return $_console$$
+                    },
+                    set: function($val$$) {
+                        $_console$$ = $val$$
+                    }
+                })
+            } catch ($ignore$$) {}
+        })();
+
+    </script-->
+    <!--script>
+        var _z = console;
+        Object.defineProperty(window, "console", {
+            get: function() {
+                if (_z._commandLineAPI) {
+                    throw "Script execution not permitted"
+                }
+                return _z;
+            },
+            set: function(val) {
+                _z = val
+            }
+        });
+
+    </script-->
+    <script>
+        function escape(s) {
+            // Bonus level!
+
+            Object.defineProperty(console, 'foo', {
+                get: function() {
+                    throw 'nooo!'
+                }
+            });
+
+            var code = 'with(window.console && console.foo || {}) {\n\t' + s + '\n}';
+            console.log(code);
+
+            try {
+                console.log(eval(code));
+            } catch (e) {
+                console.log(e);
+            }
+        }
+
+    </script>
 </body>
 
 </html>

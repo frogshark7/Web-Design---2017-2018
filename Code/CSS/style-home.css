@@ -127,7 +127,7 @@ html {
 /*Slideshow Images*/
 
 figure > img:nth-child(1) {
-    margin-top: -20vh;
+    margin-top: -120px;
 }
 
 figure > img:nth-child(2) {
@@ -135,7 +135,7 @@ figure > img:nth-child(2) {
 }
 
 figure > img:nth-child(3) {
-    margin-top: -40px;
+    margin-top: 0;
 }
 
 figure > img:nth-child(4) {
