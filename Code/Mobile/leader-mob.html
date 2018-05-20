@@ -18,6 +18,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--Browser Icon (Multilpe OS)-->
     <title>Cloud Computing</title>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="myscripts.js"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+
 </head>
 
 <body>
@@ -52,13 +56,13 @@
         </div>
     </nav>
 
-    <div class="block-mod-bot" id="71">
+    <div class="grey-mod cd-section visible auto" id="71">
         <div class="top-lead none-back none-por" id="remove" style="height:100%; width:100%;">
 
             <div class="row white top-text">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 grey-mod comp-l">
                     <span class="bold">Microsoft</span>
-                    <br> Microsoft has been well known for their involvement in all <a href="cc.html#22" class="link-grey-white">three types</a> of cloud computing. Microsoft is also known for their involvement in artificial intelligence, and the software part of cloud computing called "the intelligent cloud." Microsoft has been focusing more on cloud computing with Azure and Office 365, and incorporating "the intelligent web" into their cloud computing products and services.
+                    <br> Microsoft has been well known for their involvement in all three types of cloud computing. Microsoft is also known for their involvement in artificial intelligence, and the software part of cloud computing called "the intelligent cloud." Microsoft has been focusing more on cloud computing with Azure and Office 365, and incorporating "the intelligent web" into their cloud computing products and services.
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 
@@ -80,8 +84,8 @@
             </div>
         </div>
 
-        <div class="add-por white grey-mod">
-            <div style="text-align: center;">
+        <div class="add-por white">
+            <div style="text-align: center; margin-top:50px;">
                 <p class="foo-1" style="font-size: 6vh; font-weight: bold;">
                     Companies
                 </p>
@@ -111,7 +115,7 @@
 
             <img src="../Pics/leaders/gcp.svg" style="width:100%;" class="foo-1">
 
-            <div class="text-mid-cc foo-1" style="text-align: justify; font-size: 3vh; margin-bottom: 10px;">
+            <div class="text-mid-cc foo-1" style="text-align: justify; font-size: 3vh;">
                 <p style="font-size:4vh; font-weight:bold; text-align: center">Google Cloud Platform</p>
                 Google Cloud Platform is a service that uses the same infrastructure as regular G-Suite services like Youtube, Gmail, and Drive. This service uses AI, machine learning, data analysis, and more. It has lots of products like the Compute Engine (IaaS which provides Virtual machines), BigQuery (IaaS for large data analysis), and more. Google Cloud Platform offers more types of services than AWS and Azure.
             </div>
@@ -201,6 +205,18 @@
         });
 
     </script>
+    <script>
+        var $myGroup = $('#myGroup');
+        $myGroup.on('show.bs.collapse', '.collapse', function() {
+            $myGroup.find('.collapse.show').collapse('hide');
+        });
+
+    </script>
+    <script src="../JS/jquery-2.1.4.js"></script>
+    <script src="../JS/velocity.min.js"></script>
+    <script src="../JS/velocity.ui.min.js"></script>
+    <script src="../JS/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </body>
 
 </html>
