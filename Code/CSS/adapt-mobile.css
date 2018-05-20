@@ -8,6 +8,10 @@
     display: none;
 }
 
+.nav-margin {
+    margin-top: 50px;
+}
+
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait */
@@ -1439,11 +1443,13 @@
         margin-top: -12vh;
     }
     .text-mid-cc {
-        font-size: 1.5vh;
+        font-size: 3vh;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
         display: block;
+        text-align: justify;
+        margin-bottom: 10px;
     }
     .title-por {
         font-size: 3vh !important;
