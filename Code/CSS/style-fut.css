@@ -125,7 +125,7 @@ html {
 }
 
 .img-bot {
-    height: 20vh;
+    width:100%;
     display: block;
     margin: auto;
 }
