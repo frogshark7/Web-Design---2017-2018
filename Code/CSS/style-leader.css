@@ -100,12 +100,13 @@ html {
 .comp-l {
     position: absolute;
     width: 35%;
+    width: 35%;
     left: 0;
 }
 
 .comp-r {
-    width: 35%;
     position: absolute;
+    width: 35%;
     right: 0;
 }
 
