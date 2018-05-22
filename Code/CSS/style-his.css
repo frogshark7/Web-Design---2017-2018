@@ -139,7 +139,7 @@ html {
 
 .arrow {
     position: absolute;
-    margin-top: -10vh;
+    margin-top: -9vh;
     left: 50%;
     width: 4vh;
     height: 4vh;
@@ -172,7 +172,7 @@ html {
 }
 
 .top-image {
-    height: 90%;
+    height: calc(100% - 50px);
     width: 100%;
     background-color: #529FDB;
     margin-top: 50px;
