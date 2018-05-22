@@ -1,3 +1,5 @@
+}
+
 ::-webkit-scrollbar {
     width: .8em;
 }
@@ -369,4 +371,16 @@ li:hover > ul.drop-menu.menu-5 li:nth-child(6) {
 
 .grey {
     color: #434343;
+}
+
+/*Dropdown Menu*/
+
+ul.dropdown-menu > li {
+    border-left: 5px solid #529FDB;
+    border-right: 5px solid #529FDB;
+}
+
+ul.dropdown-menu > li:hover {
+    border-left: 5px solid #434343;
+    border-right: 5px solid #434343;
 }

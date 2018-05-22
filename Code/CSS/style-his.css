@@ -172,7 +172,7 @@ html {
 }
 
 .top-image {
-    height: calc(100% - 50px);
+    height: calc(100vh - 50px);
     width: 100%;
     background-color: #529FDB;
     margin-top: 50px;
