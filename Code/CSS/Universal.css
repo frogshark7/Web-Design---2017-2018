@@ -381,6 +381,10 @@ ul.dropdown-menu > li:hover {
     border-right: 5px solid #434343;
 }
 
+.dropdown-toggle {
+    border-left: 5px solid transparent;
+}
+
 .dropdown-toggle:hover {
     border-left: 5px solid #434343 !important;
 }
