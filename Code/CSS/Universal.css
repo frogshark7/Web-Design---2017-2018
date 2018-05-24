@@ -178,8 +178,6 @@ a.link-grey-white:active {
     display: block;
 }
 
-
-
 .block {
     width: 100%;
     height: 100%;
@@ -381,4 +379,13 @@ ul.dropdown-menu > li {
 ul.dropdown-menu > li:hover {
     border-left: 5px solid #434343;
     border-right: 5px solid #434343;
+}
+
+.dropdown-toggle,
+.dropdown-toggle:hover {
+    border-left: 5px solid #529FDB;
+}
+
+.active {
+    border-left: 5px solid transparent;
 }
