@@ -223,24 +223,24 @@
 
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="myGroup">
                         <div class="panel">
-                            <div class="title-trans " role="button" data-toggle="collapse" data-parent="#myGroup" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 foo-1" data-toggle="tooltip" title="">Transcript-1</div>
+                            <div class="title-trans" role="button" data-toggle="collapse" data-parent="#myGroup" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="text-align: left;">
+                                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 foo-1 trans-back" data-toggle="tooltip" title="">Transcript-1</div>
                             </div>
 
-                            <div class="title-trans" role="button" data-toggle="collapse" data-parent="#myGroup" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 foo-1" data-toggle="tooltip" title="">Transcript-2</div>
+                            <div class="title-trans" role="button" data-toggle="collapse" data-parent="#myGroup" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="text-align: left;">
+                                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 foo-1 trans-back" data-toggle="tooltip" title="">Transcript-2</div>
                             </div>
                             <div class="row"></div>
 
 
                             <div id="collapseOne" class="collapse collapse-info row col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <p class="mark-por-text" style="margin-left:15px;">
+                                <p class="mark-por-text">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </div>
 
                             <div id="collapseTwo" class="collapse collapse-info row col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <p class="mark-por-text" style="margin-left:15px;">
+                                <p class="mark-por-text">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </div>
@@ -255,6 +255,14 @@
         <div>Team ID: 1771<br>TSA Web Design 2017-2018<br></div>
     </footer>
     <!--Footer END-->
+    <script>
+        $('.trans-back').click(function() {
+            $('.trans-click').removeClass('trans-click');
+            $(this).addClass('trans-click');
+
+        });
+
+    </script>
     <script>
         var $myGroup = $('#myGroup');
         $myGroup.on('show.bs.collapse', '.collapse', function() {

@@ -76,7 +76,6 @@ html {
     font-weight: bold;
     font-size: 4vh;
     display: block;
-    text-align: center;
     margin: 0;
     padding: 0;
     border: 0px solid transparent;
@@ -128,13 +127,11 @@ html {
 }
 
 .collapse-info {
-    color: #fff;
+    color: #000;
     font-size: 2.5vh;
     text-align: justify;
     font-weight: 100;
-    background-color: transparent;
-    padding-left: 8vh;
-    padding-right: 30px;
+    background-color: #fff;
 
 }
 
@@ -186,4 +183,19 @@ html {
 
 .cd-section-bot {
     height: auto;
+}
+
+/*Transcript*/
+
+.trans-back {
+    background-color: #fff;
+    width: 30%;
+}
+
+.trans-back:hover {
+    background-color: #e9e9e9;
+}
+
+.trans-click {
+    background-color: #e9e9e9;
 }
