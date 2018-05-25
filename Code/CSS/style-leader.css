@@ -189,7 +189,7 @@ html {
 
 .trans-back {
     background-color: #fff;
-    width: 30%;
+    width: auto;
 }
 
 .trans-back:hover {
