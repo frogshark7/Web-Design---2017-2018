@@ -132,8 +132,17 @@ html {
     text-align: justify;
     font-weight: 100;
     background-color: #fff;
-    padding-top: 10px;
+    padding-right: 0 !important;
+}
 
+.collapse-info > p {
+    height: 68vh;
+    overflow-y: auto;
+    margin-bottom: 0 !important;
+    margin-right: 0 !ipmortant;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
 }
 
 .right-m {
