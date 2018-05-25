@@ -132,6 +132,7 @@ html {
     text-align: justify;
     font-weight: 100;
     background-color: #fff;
+    padding-top: 10px;
 
 }
 
@@ -187,15 +188,20 @@ html {
 
 /*Transcript*/
 
-.trans-back {
+.trans-1 {
     background-color: #fff;
+}
+
+.trans-back {
     width: auto;
 }
 
-.trans-back:hover {
-    background-color: #d9d9d9;
+.trans-back:hover,
+.transcript:hover {
+    background-color: #fff;
 }
 
 .trans-click {
-    background-color: #d9d9d9;
+    background-color: #fff;
+    width: auto;
 }
