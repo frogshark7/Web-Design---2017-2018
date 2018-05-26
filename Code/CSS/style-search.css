@@ -1,3 +1,15 @@
-.gsc-tabsArea {
-    display: none;
+div > div.gsc-tabHeader:nth-child(1) {
+    visibility: hidden;
+}
+
+div > div.gsc-tabHeader:nth-child(1):after {
+    content: "Web Results";
+    visibility: visible;
+}
+
+.gsc-tabHeader.gsc-tabhActive:after {
+    border: 1px solid #529FDB;
+    border-bottom-color: #fff !important;
+    padding: 7px;
+    visibility: visible;
 }
