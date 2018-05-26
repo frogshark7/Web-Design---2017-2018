@@ -131,10 +131,11 @@ html {
     font-weight: 100;
     background-color: #fff;
     padding-right: 0 !important;
+    top: 0;
 }
 
 .collapse-info > p {
-    height: 70vh;
+    height: 72vh;
     overflow-y: auto;
     margin-bottom: 0 !important;
     margin-right: 0 !ipmortant;
