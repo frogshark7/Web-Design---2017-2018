@@ -39,3 +39,18 @@ function closeNav() {
     document.getElementById("myNav").style.height = "0px";
     document.getElementById("no-overflow").style.overflow = "auto";
 }
+
+$(document).ready(function () {
+    is_expired = 0;
+    $(function () {
+        var timer = setInterval(hidead, 100);
+        if (is_expired > 0) {
+            clearInterval(timer);
+        }
+    });
+
+    function hidead() {
+        $(".gsc-adBlock").hide();
+    };
+
+});
