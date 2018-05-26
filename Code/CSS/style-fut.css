@@ -259,3 +259,10 @@ html {
     font-size: 80px;
     color: #529FDB;
 }
+
+/*Search Box Bug*/
+
+input.gsc-input {
+    border-color: #004220;
+    height: 20px !important;
+}

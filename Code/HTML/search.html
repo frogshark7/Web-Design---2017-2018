@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Karma" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="../CSS/cdnbootstrap.css">
-    <link rel="stylesheet" href="../CSS/style-home.css">
+    <link rel="stylesheet" href="../CSS/style-search.css">
     <link rel="stylesheet" href="../CSS/Universal.css">
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -24,6 +24,7 @@
     <link rel="mask-icon" href="../Icon/ofavcon.ico" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
@@ -109,6 +110,16 @@
                                         s.parentNode.insertBefore(gcse, s);
                                     })();
 
+                                    var searchOps = {
+                                        'defaultToRefinement': 'Web'
+                                    };
+                                    var searcher = new google.search.CustomSearchControl('000156610173958638263:ldi11wyxh9c', searchOps);
+
+
+                                    var customSearchControl = new google.search.CustomSearchControl('000156610173958638263:ldi11wyxh9c');
+                                    customSearchControl.setSearchStartingCallback(this, function(control, searcher, query) {
+                                        searcher.setQueryAddition('more:' + 'Web');
+                                    });
                                 </script>
                                 <gcse:searchbox-only style="height:50px;" resultsUrl="https://siconat.com/cloud-computing/HTML/search.html" enableAutoComplete="true">
                                 </gcse:searchbox-only>
@@ -132,13 +143,24 @@
                 s.parentNode.insertBefore(gcse, s);
             })();
 
+            var searchOps = {
+                'defaultToRefinement': 'Web'
+            };
+            var searcher = new google.search.CustomSearchControl('000156610173958638263:ldi11wyxh9c', searchOps);
+
+
+            var customSearchControl = new google.search.CustomSearchControl('000156610173958638263:ldi11wyxh9c');
+            customSearchControl.setSearchStartingCallback(this, function(control, searcher, query) {
+                searcher.setQueryAddition('more:' + 'Web');
+            });
         </script>
         <gcse:searchresults-only></gcse:searchresults-only>
     </div>
     <script src="../JS/common.js"></script>
-    <script>
+
+    <!--script>
         var searchOps = {
-            'defaultToRefinement': 'Web Results'
+            'defaultToRefinement': 'Web'
         };
         var searcher = new google.search.CustomSearchControl('000156610173958638263:ldi11wyxh9c', searchOps);
 
@@ -147,8 +169,7 @@
         customSearchControl.setSearchStartingCallback(this, function(control, searcher, query) {
             searcher.setQueryAddition('more:' + refinement);
         });
-
-    </script>
+    </script-->
 
 </body>
 
