@@ -40,7 +40,7 @@ html {
 /*Title*/
 
 .title {
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
     font-weight: bold;
     font-size: 6vh;
@@ -90,8 +90,6 @@ html {
     margin-top: 50px;
 }
 
-
-
 .comp-bot {
     bottom: 0;
 }
@@ -136,12 +134,12 @@ html {
 }
 
 .collapse-info > p {
-    height: 68vh;
+    height: 70vh;
     overflow-y: auto;
     margin-bottom: 0 !important;
     margin-right: 0 !ipmortant;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-bottom: 10px;
     padding-top: 10px;
 }
 
