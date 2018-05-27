@@ -156,7 +156,7 @@ figure > img:nth-child(4) {
 
 @media (min-height:800px) {
     figure > img:nth-child(3) {
-        margin-top: 0;
+        margin-top: 50px;
     }
 }
 

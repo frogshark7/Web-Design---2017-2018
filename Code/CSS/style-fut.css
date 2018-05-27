@@ -6,7 +6,6 @@ html {
 
 }
 
-/*Color*/
 
 .white {
     color: #fff;
@@ -24,17 +23,6 @@ html {
     color: #529FDB;
 }
 
-/*Parallax*/
-
-.img-parallax {
-    width: 100vmax;
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    pointer-events: none
-}
-
-/*Title*/
 
 .title {
     margin-top: 80px;
@@ -71,7 +59,6 @@ html {
     color: #529FDB;
 }
 
-/*BODY TEXT*/
 
 .top-text {
     font-size: 2.6vh;
@@ -79,8 +66,9 @@ html {
 }
 
 .collapse-info {
+    margin-top: -10px;
     font-size: 3.3vh;
-    text-align: justify
+    text-align: justify;
 }
 
 .mid-text {
@@ -101,7 +89,7 @@ html {
     padding-left: 5vh;
 }
 
-/*MOD*/
+
 
 @media (min-width:1500px) {
     .block {
@@ -109,7 +97,6 @@ html {
     }
 }
 
-/*Images*/
 
 .img-collapse {
     margin-top: -40vh;
@@ -130,36 +117,20 @@ html {
     margin: auto;
 }
 
-/*Text-bot Animation*/
-
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+.fut-mid {
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/*clearfixes*/
-
-.cf:before,
-.cf:after {
-    content: " ";
-    display: table;
-}
-
-.cf:after {
-    clear: both;
-}
-
-/*animation element*/
 
 .animation-element {
     opacity: 0;
     position: relative;
 }
 
-/*animation element sliding left*/
+
 
 .animation-element.slide-left {
     opacity: 0;
@@ -173,6 +144,7 @@ html {
     -ms-transform: translate(-100%, 0px);
     transform: translate3d(-100%, 0px, 0px);
 }
+
 
 .animation-element.slide-left.in-view {
     opacity: 1;
@@ -205,30 +177,7 @@ html {
     transform: translate3d(0px, 0px, 0px);
 }
 
-/*media queries for small devices*/
 
-@media screen and (max-width: 678px) {
-    /*testimonials*/
-    .animation-element.slide-left.testimonial,
-    .animation-element.slide-left.testimonial:nth-of-type(odd),
-    .animation-element.slide-left.testimonial:nth-of-type(even) {
-        width: 100%;
-        margin: 0px 0px 20px 0px;
-    }
-    .animation-element.slide-left.testimonial .right,
-    .animation-element.slide-left.testimonial .left,
-    .animation-element.slide-left.testimonial .content,
-    .animation-element.slide-left.testimonial .rating {
-        text-align: center;
-        float: none;
-    }
-    .animation-element.slide-left.testimonial img {
-        width: 85px;
-        height: 85px;
-        margin-bottom: 5px;
-    }
-
-}
 
 .overlay-content {
     position: relative;
@@ -238,14 +187,13 @@ html {
     margin-top: 30px;
 }
 
+
 .overlay a {
-    padding: 8px;
     text-decoration: none;
-    font-size: 36px;
     color: transparent;
     display: block;
-    transition: 0.3s;
 }
+
 
 .overlay a:hover,
 .overlay a:focus {
@@ -258,11 +206,4 @@ html {
     right: 25px;
     font-size: 80px;
     color: #529FDB;
-}
-
-/*Search Box Bug*/
-
-input.gsc-input {
-    border-color: #004220;
-    height: 20px !important;
 }

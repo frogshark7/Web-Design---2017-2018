@@ -22,7 +22,6 @@ div > div.gsc-tabHeader:nth-child(3):after {
     padding: 7px;
     visibility: visible;
     border-bottom-color: #fff !important;
-    z-index: 1000000;
 }
 
 .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
