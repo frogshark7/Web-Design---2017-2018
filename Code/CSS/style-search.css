@@ -7,9 +7,23 @@ div > div.gsc-tabHeader:nth-child(1):after {
     visibility: visible;
 }
 
+div > div.gsc-tabHeader:nth-child(3) {
+    visibility: hidden;
+}
+
+div > div.gsc-tabHeader:nth-child(3):after {
+    content: "Site Results";
+    visibility: visible;
+    margin-left: -70px;
+}
+
 .gsc-tabHeader.gsc-tabhActive:after {
-    border: 1px solid #529FDB;
-    border-bottom-color: #fff !important;
+    border: 1px solid #529FDB !important;
     padding: 7px;
     visibility: visible;
+    border-bottom-color: #fff !important;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+    background-color: #fff !important;
 }
