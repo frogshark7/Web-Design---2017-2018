@@ -27,3 +27,10 @@ div > div.gsc-tabHeader:nth-child(3):after {
 .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
     background-color: #fff !important;
 }
+
+.gsc-tabsArea {
+    border: 1px solid #529FDB !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    border-top-color: transparent !important;
+}
