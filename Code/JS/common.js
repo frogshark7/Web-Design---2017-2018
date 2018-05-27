@@ -32,12 +32,12 @@ $(".h-menu-6 > ul.dropdown-menu").hover(function () {
 
 function openNav() {
     document.getElementById("myNav").style.height = "50px";
-    document.getElementById("no-overflow").style.overflow = "hidden";
+    $('#gsc-i-id1').attr('placeholder', 'Search...');
+
 }
 
 function closeNav() {
     document.getElementById("myNav").style.height = "0px";
-    document.getElementById("no-overflow").style.overflow = "auto";
 }
 
 $(document).ready(function () {
