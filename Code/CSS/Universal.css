@@ -71,6 +71,7 @@ nav-home {
     position: relative;
     bottom: 0;
     z-index: 1000;
+    height: 42px;
 }
 
 /*---Hyperlink Formatting---*/
