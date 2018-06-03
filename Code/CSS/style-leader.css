@@ -134,7 +134,7 @@ html {
 }
 
 .collapse-p {
-    height: 70vh;
+    height: calc(79vh - 42px);
     overflow-y: auto;
     margin-bottom: 0 !important;
     margin-right: 0 !ipmortant;
@@ -195,20 +195,25 @@ html {
 
 /*Transcript*/
 
-.trans-1, .trans-1-mob {
+.trans-1,
+.trans-1-mob {
     background-color: #fff;
 }
 
-.trans-back, .trans-back-mob {
+.trans-back,
+.trans-back-mob {
     width: auto;
 }
 
-.trans-back:hover, .trans-back-mob:hover,
-.transcript:hover, .transcript-mob:hover {
+.trans-back:hover,
+.trans-back-mob:hover,
+.transcript:hover,
+.transcript-mob:hover {
     background-color: #fff;
 }
 
-.trans-click {
+.trans-click,
+.trans-click-mob {
     background-color: #fff;
     width: auto;
 }
