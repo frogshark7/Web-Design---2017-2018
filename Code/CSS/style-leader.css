@@ -134,7 +134,7 @@ html {
 }
 
 .collapse-p {
-    height: 72vh;
+    height: 70vh;
     overflow-y: auto;
     margin-bottom: 0 !important;
     margin-right: 0 !ipmortant;
@@ -195,16 +195,16 @@ html {
 
 /*Transcript*/
 
-.trans-1 {
+.trans-1, .trans-1-mob {
     background-color: #fff;
 }
 
-.trans-back {
+.trans-back, .trans-back-mob {
     width: auto;
 }
 
-.trans-back:hover,
-.transcript:hover {
+.trans-back:hover, .trans-back-mob:hover,
+.transcript:hover, .transcript-mob:hover {
     background-color: #fff;
 }
 

@@ -235,6 +235,10 @@ a.link-grey-white:active {
     color: #529FDB;
 }
 
+.overlay > .closebtnNav:hover {
+    color: #434343;
+}
+
 /*Dropdown Menu Animation*/
 
 ul {
@@ -406,4 +410,8 @@ ul.dropdown-menu > li:hover {
 
 .active {
     border-left: 5px solid transparent;
+}
+
+ul.nav > li:nth-child(8) {
+    cursor: pointer;
 }

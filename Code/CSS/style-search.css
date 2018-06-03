@@ -21,7 +21,12 @@ div > div.gsc-tabHeader:nth-child(3):after {
     border: 1px solid #529FDB !important;
     padding: 7px;
     visibility: visible;
-    border-bottom-color: #fff !important;
+    color: #fff !important;
+    background-color: #529FDB !important;
+}
+
+.gsc-tabHeader.gsc-tabhInactive:after {
+    color: #529FDB !important;
 }
 
 .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
@@ -29,8 +34,5 @@ div > div.gsc-tabHeader:nth-child(3):after {
 }
 
 .gsc-tabsArea {
-    border: 1px solid #529FDB !important;
-    border-left-color: transparent !important;
-    border-right-color: transparent !important;
-    border-top-color: transparent !important;
+    border-bottom: 1px solid #529FDB !important;
 }
