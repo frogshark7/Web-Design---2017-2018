@@ -2,11 +2,12 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-body {
-    margin: 0
-}
-
 @import url('https://fonts.googleapis.com/css?family=Karma');
+
+body {
+    margin: 0;
+    font-family: "Karma";
+}
 
 article,
 aside,
@@ -5193,7 +5194,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     padding-right: 15px;
     padding-left: 15px;
     overflow-x: visible;
-
+    display: unset;
 }
 
 .navbar-collapse.in {

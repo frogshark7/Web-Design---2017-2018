@@ -31,13 +31,19 @@ html {
 
 .img-text {
     text-align: justify;
-    margin: 120px 0 0 5%;
+    margin: 18vh 0 0 5%;
     max-width: 40%;
     position: relative;
     display: block;
     font-size: 4.4vh;
     color: #000;
     overflow: auto;
+}
+
+@media(min-height:800px) {
+    .img-text {
+        font-size: 4vh;
+    }
 }
 
 /* TEXT END*/
