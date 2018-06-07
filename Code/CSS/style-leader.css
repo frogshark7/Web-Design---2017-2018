@@ -2,17 +2,6 @@ body,
 html {
     margin: 0;
     padding: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-body > * {
-    flex-shrink: 0;
-}
-
-.collapse-p {
-    flex-grow: 1;
 }
 
 /*TEXT Prop*/
