@@ -30,6 +30,10 @@ body {
     -ms-text-size-adjust: 100%;
 }
 
+nav {
+    cursor: default;
+}
+
 hr {
     width: 90%;
     color: #000;
