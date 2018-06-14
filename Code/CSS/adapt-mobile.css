@@ -12,6 +12,30 @@
     margin-top: 50px;
 }
 
+/*Dropdown Menu*/
+
+ul.dropdown-menu > li {
+    border-left: 0px solid #529FDB;
+    border-right: 0px solid #529FDB;
+}
+
+ul.dropdown-menu > li:hover {
+    border-left: 0px solid #434343;
+    border-right: 0px solid #434343;
+}
+
+.dropdown-toggle {
+    border-left: 0px solid transparent;
+}
+
+.dropdown-toggle:hover {
+    border-left: 0px solid #434343 !important;
+}
+
+.active {
+    border-left: 0px solid transparent;
+}
+
 /* Portrait */
 
 @media only screen and (orientation: portrait) {

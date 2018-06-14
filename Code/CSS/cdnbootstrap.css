@@ -1,7 +1,3 @@
-/*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
-
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
 @import url('https://fonts.googleapis.com/css?family=Karma');
 
 body {
@@ -1617,7 +1613,7 @@ p {
     line-height: 1.4
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .lead {
         font-size: 21px
     }
@@ -1815,7 +1811,7 @@ dd {
     margin-left: 0
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .dl-horizontal dt {
         float: left;
         width: 160px;
@@ -1970,7 +1966,7 @@ pre code {
     margin-left: auto
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .container {
         width: 750px
     }
@@ -2282,7 +2278,7 @@ pre code {
     margin-left: 0
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .col-sm-1,
     .col-sm-10,
     .col-sm-11,
@@ -3725,7 +3721,7 @@ textarea.input-lg {
     color: #737373
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .form-inline .form-group {
         display: inline-block;
         margin-bottom: 0;
@@ -3795,7 +3791,7 @@ textarea.input-lg {
     margin-left: -15px
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .form-horizontal .control-label {
         padding-top: 7px;
         margin-bottom: 0;
@@ -3807,14 +3803,14 @@ textarea.input-lg {
     right: 15px
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .form-horizontal .form-group-lg .control-label {
         padding-top: 11px;
         font-size: 18px
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .form-horizontal .form-group-sm .control-label {
         padding-top: 6px;
         font-size: 12px
@@ -4536,7 +4532,7 @@ tbody.collapse.in {
     margin-bottom: 2px
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .navbar-right .dropdown-menu {
         right: 0;
         right: auto
@@ -5042,7 +5038,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     left: auto
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .nav-tabs.nav-justified > li {
         display: table-cell;
         width: 1%
@@ -5063,7 +5059,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     border: 1px solid #ddd
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .nav-tabs.nav-justified > li > a {
         border-bottom: 1px solid #ddd;
         border-radius: 4px 4px 0 0
@@ -5121,7 +5117,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     left: auto
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .nav-justified > li {
         display: table-cell;
         width: 1%
@@ -5146,7 +5142,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     border: 1px solid #ddd
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .nav-tabs-justified > li > a {
         border-bottom: 1px solid #ddd;
         border-radius: 4px 4px 0 0
@@ -5178,13 +5174,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-bottom: 20px;
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .navbar {
         border-radius: 4px
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .navbar-header {
         float: left
     }
@@ -5201,7 +5197,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     overflow-y: auto
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .navbar-collapse {
         width: auto;
         border-top: 0;
@@ -5245,7 +5241,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-left: -15px
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .container-fluid > .navbar-collapse,
     .container-fluid > .navbar-header,
     .container > .navbar-collapse,
@@ -5260,7 +5256,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     border-width: 0 0 1px
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .navbar-static-top {
         border-radius: 0
     }
@@ -5274,7 +5270,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     z-index: 1030
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .navbar-fixed-bottom,
     .navbar-fixed-top {
         border-radius: 0
@@ -5309,7 +5305,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     display: block
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .navbar > .container .navbar-brand,
     .navbar > .container-fluid .navbar-brand {
         margin-left: -15px
@@ -5344,7 +5340,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-top: 4px
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .navbar-toggle {
         display: none
     }
@@ -5384,7 +5380,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .navbar-nav {
         float: left;
         margin: 0
@@ -5410,7 +5406,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1)
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .navbar-form .form-group {
         display: inline-block;
         margin-bottom: 0;
@@ -5470,7 +5466,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .navbar-form {
         width: auto;
         padding-top: 0;
@@ -5517,7 +5513,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-bottom: 15px
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .navbar-text {
         float: left;
         margin-right: 15px;
@@ -5525,7 +5521,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .navbar-left {
         float: left !important
     }
@@ -6121,7 +6117,7 @@ a.badge:hover {
     max-width: 100%
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:868px) {
     .jumbotron {
         padding-top: 48px;
         padding-bottom: 48px
@@ -7289,7 +7285,7 @@ button.close {
     overflow: scroll
 }
 
-@media (min-width:768px) {
+@media (min-width:868px) {
     .modal-dialog {
         width: 600px;
         margin: 30px auto
@@ -7814,7 +7810,7 @@ button.close {
     text-shadow: none
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:868px) {
     .carousel-control .glyphicon-chevron-left,
     .carousel-control .glyphicon-chevron-right,
     .carousel-control .icon-next,
@@ -7999,7 +7995,7 @@ button.close {
     }
 }
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:868px) and (max-width:991px) {
     .visible-sm {
         display: block !important
     }
@@ -8015,19 +8011,19 @@ button.close {
     }
 }
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:868px) and (max-width:991px) {
     .visible-sm-block {
         display: block !important
     }
 }
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:868px) and (max-width:991px) {
     .visible-sm-inline {
         display: inline !important
     }
 }
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:868px) and (max-width:991px) {
     .visible-sm-inline-block {
         display: inline-block !important
     }
@@ -8107,7 +8103,7 @@ button.close {
     }
 }
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:868px) and (max-width:991px) {
     .hidden-sm {
         display: none !important
     }
