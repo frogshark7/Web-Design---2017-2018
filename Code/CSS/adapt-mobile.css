@@ -14,18 +14,8 @@
 
 /*Dropdown Menu*/
 
-ul.dropdown-menu > li {
-    border-left: 0px solid #529FDB;
-    border-right: 0px solid #529FDB;
-}
-
-ul.dropdown-menu > li:hover {
-    border-left: 0px solid #434343;
-    border-right: 0px solid #434343;
-}
-
 .dropdown-toggle {
-    border-left: 0px solid transparent;
+    border-left: 0px solid transparent !important;
 }
 
 .dropdown-toggle:hover {
@@ -33,7 +23,7 @@ ul.dropdown-menu > li:hover {
 }
 
 .active {
-    border-left: 0px solid transparent;
+    border-left: 0px solid transparent !important;
 }
 
 /* Portrait */
@@ -49,7 +39,7 @@ ul.dropdown-menu > li:hover {
         width: 100%;
     }
     .add-por {
-        display: unset;
+        display: unset !important;
     }
     .none-por {
         display: none !important;
@@ -200,6 +190,9 @@ ul.dropdown-menu > li:hover {
 /* Landscape */
 
 @media only screen and (orientation: landscape) {
+    .add-por {
+        display: none !important;
+    }
     .margin-slide {
         margin-top: 50px;
     }

@@ -1613,7 +1613,7 @@ p {
     line-height: 1.4
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .lead {
         font-size: 21px
     }
@@ -1811,7 +1811,7 @@ dd {
     margin-left: 0
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .dl-horizontal dt {
         float: left;
         width: 160px;
@@ -1966,7 +1966,7 @@ pre code {
     margin-left: auto
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .container {
         width: 750px
     }
@@ -2278,7 +2278,7 @@ pre code {
     margin-left: 0
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .col-sm-1,
     .col-sm-10,
     .col-sm-11,
@@ -3181,7 +3181,7 @@ table th[class*=col-] {
     overflow-x: auto
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:811px) {
     .table-responsive {
         width: 100%;
         margin-bottom: 15px;
@@ -3705,7 +3705,6 @@ textarea.input-lg {
 .has-error .form-control-feedback {
     color: #a94442
 }
-
 .has-feedback label ~ .form-control-feedback {
     top: 25px
 }
@@ -3721,7 +3720,7 @@ textarea.input-lg {
     color: #737373
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .form-inline .form-group {
         display: inline-block;
         margin-bottom: 0;
@@ -3791,7 +3790,7 @@ textarea.input-lg {
     margin-left: -15px
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .form-horizontal .control-label {
         padding-top: 7px;
         margin-bottom: 0;
@@ -3803,14 +3802,14 @@ textarea.input-lg {
     right: 15px
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .form-horizontal .form-group-lg .control-label {
         padding-top: 11px;
         font-size: 18px
     }
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .form-horizontal .form-group-sm .control-label {
         padding-top: 6px;
         font-size: 12px
@@ -4532,7 +4531,7 @@ tbody.collapse.in {
     margin-bottom: 2px
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .navbar-right .dropdown-menu {
         right: 0;
         right: auto
@@ -5038,7 +5037,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     left: auto
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .nav-tabs.nav-justified > li {
         display: table-cell;
         width: 1%
@@ -5059,7 +5058,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     border: 1px solid #ddd
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .nav-tabs.nav-justified > li > a {
         border-bottom: 1px solid #ddd;
         border-radius: 4px 4px 0 0
@@ -5117,7 +5116,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     left: auto
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .nav-justified > li {
         display: table-cell;
         width: 1%
@@ -5142,7 +5141,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     border: 1px solid #ddd
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .nav-tabs-justified > li > a {
         border-bottom: 1px solid #ddd;
         border-radius: 4px 4px 0 0
@@ -5174,13 +5173,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-bottom: 20px;
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .navbar {
         border-radius: 4px
     }
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .navbar-header {
         float: left
     }
@@ -5190,14 +5189,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
     padding-right: 15px;
     padding-left: 15px;
     overflow-x: visible;
-    display: unset;
 }
 
 .navbar-collapse.in {
     overflow-y: auto
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .navbar-collapse {
         width: auto;
         border-top: 0;
@@ -5241,7 +5239,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-left: -15px
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .container-fluid > .navbar-collapse,
     .container-fluid > .navbar-header,
     .container > .navbar-collapse,
@@ -5256,7 +5254,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     border-width: 0 0 1px
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .navbar-static-top {
         border-radius: 0
     }
@@ -5270,7 +5268,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     z-index: 1030
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .navbar-fixed-bottom,
     .navbar-fixed-top {
         border-radius: 0
@@ -5305,7 +5303,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     display: block
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .navbar > .container .navbar-brand,
     .navbar > .container-fluid .navbar-brand {
         margin-left: -15px
@@ -5340,9 +5338,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-top: 4px
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .navbar-toggle {
-        display: none
+        display: none;
     }
 }
 
@@ -5356,7 +5354,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     line-height: 20px
 }
 
-@media (max-width:767px) {
+@media (max-width:811px) {
     .navbar-nav .open .dropdown-menu {
         position: static;
         float: none;
@@ -5380,7 +5378,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     }
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .navbar-nav {
         float: left;
         margin: 0
@@ -5406,7 +5404,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1)
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .navbar-form .form-group {
         display: inline-block;
         margin-bottom: 0;
@@ -5457,7 +5455,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:811px) {
     .navbar-form .form-group {
         margin-bottom: 5px
     }
@@ -5466,7 +5464,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     }
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .navbar-form {
         width: auto;
         padding-top: 0;
@@ -5513,7 +5511,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-bottom: 15px
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .navbar-text {
         float: left;
         margin-right: 15px;
@@ -5521,7 +5519,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     }
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .navbar-left {
         float: left !important
     }
@@ -5602,7 +5600,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     background-color: #e7e7e7
 }
 
-@media (max-width:767px) {
+@media (max-width:811px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: #000
     }
@@ -5715,7 +5713,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
     background-color: #080808
 }
 
-@media (max-width:767px) {
+@media (max-width:811px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
         border-color: #080808
     }
@@ -6117,7 +6115,7 @@ a.badge:hover {
     max-width: 100%
 }
 
-@media screen and (min-width:868px) {
+@media screen and (min-width:811px) {
     .jumbotron {
         padding-top: 48px;
         padding-bottom: 48px
@@ -7285,7 +7283,7 @@ button.close {
     overflow: scroll
 }
 
-@media (min-width:868px) {
+@media (min-width:811px) {
     .modal-dialog {
         width: 600px;
         margin: 30px auto
@@ -7810,7 +7808,7 @@ button.close {
     text-shadow: none
 }
 
-@media screen and (min-width:868px) {
+@media screen and (min-width:811px) {
     .carousel-control .glyphicon-chevron-left,
     .carousel-control .glyphicon-chevron-right,
     .carousel-control .icon-next,
@@ -7961,7 +7959,7 @@ button.close {
     display: none !important
 }
 
-@media (max-width:767px) {
+@media (max-width:811px) {
     .visible-xs {
         display: block !important
     }
@@ -7977,25 +7975,25 @@ button.close {
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:811px) {
     .visible-xs-block {
         display: block !important
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:811px) {
     .visible-xs-inline {
         display: inline !important
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:811px) {
     .visible-xs-inline-block {
         display: inline-block !important
     }
 }
 
-@media (min-width:868px) and (max-width:991px) {
+@media (min-width:811px) and (max-width:991px) {
     .visible-sm {
         display: block !important
     }
@@ -8011,19 +8009,19 @@ button.close {
     }
 }
 
-@media (min-width:868px) and (max-width:991px) {
+@media (min-width:811px) and (max-width:991px) {
     .visible-sm-block {
         display: block !important
     }
 }
 
-@media (min-width:868px) and (max-width:991px) {
+@media (min-width:811px) and (max-width:991px) {
     .visible-sm-inline {
         display: inline !important
     }
 }
 
-@media (min-width:868px) and (max-width:991px) {
+@media (min-width:811px) and (max-width:991px) {
     .visible-sm-inline-block {
         display: inline-block !important
     }
@@ -8097,13 +8095,13 @@ button.close {
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:811px) {
     .hidden-xs {
         display: none !important
     }
 }
 
-@media (min-width:868px) and (max-width:991px) {
+@media (min-width:811px) and (max-width:991px) {
     .hidden-sm {
         display: none !important
     }

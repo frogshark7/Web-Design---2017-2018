@@ -133,7 +133,7 @@ html {
 }
 
 .collapse-p {
-    height: calc(79vh - 62px);
+    height: calc(89vh - 62px);
     overflow-y: auto;
     margin-bottom: 0 !important;
     margin-right: 0 !ipmortant;
